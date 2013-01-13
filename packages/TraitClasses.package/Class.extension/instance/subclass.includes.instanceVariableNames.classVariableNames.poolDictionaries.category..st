@@ -6,6 +6,8 @@ subclass: t includes: traitInclusions instanceVariableNames: f classVariableName
 	
 	traitInclusions do: #assertVariablesExist.
 	
+	self assertVariablesToIncludeFrom: traitInclusions dontAlreadyExistIn: t or: f.
+			
 	newClass := self
 		subclass: t
 		instanceVariableNames: f, (self variableNamesStringFrom: traitInclusions)

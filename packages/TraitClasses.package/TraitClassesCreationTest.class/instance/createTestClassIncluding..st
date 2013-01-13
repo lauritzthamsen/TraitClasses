@@ -4,7 +4,7 @@ createTestClassIncluding: anArray
 	^ Object 
 		subclass: self class testClassName 
 		includes: anArray
-		instanceVariableNames: ''
+		instanceVariableNames: 'existingVariable'
 		classVariableNames: ''
 		poolDictionaries: ''
 		category: 'TraitClasses-Tests'.

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"exampleVariable",
 		"exampleVariable2",
-		"exampleVariable3" ],
+		"exampleVariable3",
+		"existingVariable" ],
 	"name" : "TraitClassesExampleTraitClass",
 	"pools" : [
 		 ],
