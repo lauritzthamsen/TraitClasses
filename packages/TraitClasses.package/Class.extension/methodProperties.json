@@ -2,8 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"associationsToCompiledMethods:" : "lt 12/29/2012 15:28:15.473",
-		"renameSelectorSource:to:" : "lt 1/9/2013 13:53:00.073",
-		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 12/29/2012 17:33:55.08",
-		"traitProtocolPrefix" : "lt 12/29/2012 16:21:54.951",
-		"transformIncludesArray:" : "lt 1/9/2013 13:46:59.111" } }
+		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 1/9/2013 15:05:23.559",
+		"traitProtocolPrefix" : "lt 12/29/2012 16:21:54.951" } }

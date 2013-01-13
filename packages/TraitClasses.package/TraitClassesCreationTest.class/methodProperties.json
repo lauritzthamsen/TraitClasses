@@ -5,9 +5,8 @@
 		"createTestClassIncluding:" : "lt 12/29/2012 16:02:38.016",
 		"tearDown" : "lt 12/29/2012 15:44:14.515",
 		"testAllMethodsInProtocol" : "lt 12/29/2012 16:42:01.116",
-		"testConflictingMethod" : "lt 12/29/2012 16:11:56.14",
-		"testExampleMethod" : "lt 12/29/2012 16:03:04.331",
-		"testExampleMethodInSelectorStyle" : "lt 12/29/2012 16:28:42.714",
-		"testProtocolOfExampleMethod" : "lt 12/29/2012 16:20:53.54",
-		"testRenameExampleMethod" : "lt 12/29/2012 16:56:45.953",
+		"testConflictingMethod" : "lt 1/9/2013 15:10:53.593",
+		"testExampleMethod" : "lt 1/9/2013 15:06:00.513",
+		"testProtocolOfExampleMethod" : "lt 1/9/2013 15:05:02.294",
+		"testRenameExampleMethod" : "lt 1/9/2013 15:06:22.904",
 		"testSpecificMethodAndProtocol" : "lt 12/29/2012 16:50:04.18" } }

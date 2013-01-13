@@ -3,7 +3,7 @@ testRenameExampleMethod
 
 	| testClass |
 	testClass := self createTestClassIncluding: 
-		{#TraitClassesExampleTraitClass -> {#exampleMethod -> #renamedExampleMethod}}.
+		{#TraitClassesExampleTraitClass selectors: {#exampleMethod -> #renamedExampleMethod}}.
 		
 	self 
 		deny: (testClass canUnderstand: #exampleMethod).

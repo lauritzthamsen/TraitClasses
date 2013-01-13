@@ -1,13 +1,15 @@
 {
-	"category" : "TraitClasses-Tests",
+	"category" : "TraitClasses",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"exampleVariable" ],
-	"name" : "TraitClassesExampleTraitClass",
+		"traitClassName",
+		"methodRenamings",
+		"selectors" ],
+	"name" : "TraitInclusion",
 	"pools" : [
 		 ],
 	"super" : "Object",

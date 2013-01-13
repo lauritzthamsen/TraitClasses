@@ -1,4 +1,4 @@
 *TraitClasses
 protocols: anArray
 
-	^ self -> (self methodsInProtocols: anArray)
+	^ self selectors: (self methodsInProtocols: anArray)
