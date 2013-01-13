@@ -3,4 +3,5 @@ initialize
 
 	self 
 		selectors: OrderedCollection new;
-		methodRenamings: Dictionary new.  
+		methodRenamings: Dictionary new;
+		variables: OrderedCollection new.

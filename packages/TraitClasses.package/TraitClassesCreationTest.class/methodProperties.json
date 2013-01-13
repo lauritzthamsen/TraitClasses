@@ -8,6 +8,8 @@
 		"testConflictingMethod" : "lt 1/9/2013 15:10:53.593",
 		"testConflictingRetainsOldClass" : "lt 1/9/2013 15:29:26.062",
 		"testExampleMethod" : "lt 1/9/2013 15:06:00.513",
+		"testInstanceVariable" : "lt 1/9/2013 15:13:58.905",
+		"testMultipleInstanceVariables" : "lt 1/9/2013 15:51:41.263",
 		"testProtocolOfExampleMethod" : "lt 1/9/2013 15:05:02.294",
 		"testRenameExampleMethod" : "lt 1/9/2013 15:06:22.904",
 		"testSpecificMethodAndProtocol" : "lt 12/29/2012 16:50:04.18" } }

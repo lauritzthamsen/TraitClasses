@@ -3,11 +3,13 @@
 		 },
 	"instance" : {
 		"includedSelectors" : "lt 1/9/2013 15:06:55.297",
-		"initialize" : "lt 1/9/2013 14:51:53.13",
+		"initialize" : "lt 1/9/2013 15:48:42.292",
 		"methodRenamings" : "lt 1/9/2013 14:27:33.666",
 		"methodRenamings:" : "lt 1/9/2013 14:27:33.673",
 		"selectors" : "lt 1/9/2013 14:51:41.582",
 		"selectors:" : "lt 1/9/2013 14:51:53.124",
 		"sourceForSelector:" : "lt 1/9/2013 15:02:10.512",
 		"traitClassName" : "lt 1/9/2013 14:42:24.968",
-		"traitClassName:" : "lt 1/9/2013 14:42:24.972" } }
+		"traitClassName:" : "lt 1/9/2013 14:42:24.972",
+		"variables" : "lt 1/9/2013 15:14:58.966",
+		"variables:" : "lt 1/9/2013 15:14:58.971" } }

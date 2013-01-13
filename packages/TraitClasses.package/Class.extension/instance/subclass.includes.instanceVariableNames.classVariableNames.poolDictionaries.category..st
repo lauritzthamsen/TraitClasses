@@ -3,9 +3,10 @@ subclass: t includes: traitInclusions instanceVariableNames: f classVariableName
 
 	| oldClass newClass |
 	oldClass := Smalltalk classNamed: t.
+	
 	newClass := self
 		subclass: t
-		instanceVariableNames: f
+		instanceVariableNames: f, (self variableNamesFrom: traitInclusions)
 		classVariableNames: d
 		poolDictionaries: s
 		category: cat.
