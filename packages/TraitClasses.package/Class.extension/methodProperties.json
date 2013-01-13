@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertVariablesToIncludeDontAlreadyExist:" : "lt 1/9/2013 16:19:43.211",
-		"assertVariablesToIncludeFrom:dontAlreadyExistIn:" : "lt 1/9/2013 16:23:04.874",
 		"assertVariablesToIncludeFrom:dontAlreadyExistIn:or:" : "lt 1/9/2013 16:24:41.868",
 		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 1/9/2013 16:23:14.8",
 		"traitProtocolPrefix" : "lt 12/29/2012 16:21:54.951",
