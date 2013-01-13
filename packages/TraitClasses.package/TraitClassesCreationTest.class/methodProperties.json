@@ -1,16 +1,17 @@
 {
 	"class" : {
+		"conflictingMethodName" : "TP 1/9/2013 17:25:18.647",
 		"testClassName" : "lt 12/29/2012 15:43:56.699" },
 	"instance" : {
 		"createErroneousTestClass" : "TP 1/9/2013 16:02:19.253",
 		"createErroneousTestClassAddingSelectors:" : "TP 1/9/2013 16:22:30.253",
-		"createTestClassIncluding:" : "lt 1/9/2013 16:09:15.033",
+		"createTestClassIncluding:" : "TP 1/9/2013 18:10:42.507",
 		"createTestClassIncludingSelectors:" : "TP 1/9/2013 16:15:57.147",
 		"getCreatedClass" : "TP 1/9/2013 16:09:52.993",
 		"tearDown" : "lt 12/29/2012 15:44:14.515",
 		"testAllMethodsInProtocol" : "lt 12/29/2012 16:42:01.116",
 		"testConflictingDoesNotChangeOldClass" : "TP 1/9/2013 16:09:53.017",
-		"testConflictingMethod" : "TP 1/9/2013 16:20:07.655",
+		"testConflictingMethod" : "TP 1/9/2013 18:13:17.147",
 		"testConflictingRetainsOldClass" : "TP 1/9/2013 16:11:09.453",
 		"testConflictingVariable" : "lt 1/9/2013 16:12:56.368",
 		"testExampleMethod" : "TP 1/9/2013 16:19:43.571",

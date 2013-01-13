@@ -1,29 +1,14 @@
 *TraitClasses
-subclass: t includes: traitInclusions instanceVariableNames: f classVariableNames: d poolDictionaries: s category: cat 
-
+subclass: className includes: traitInclusions instanceVariableNames: instanceVariables classVariableNames: d poolDictionaries: s category: cat
 	| oldClass newClass |
-	oldClass := Smalltalk classNamed: t.
-	
-	traitInclusions do: #assertVariablesExist.
-	
-	self assertVariablesToIncludeFrom: traitInclusions dontAlreadyExistIn: t or: f.
-			
+	oldClass := Smalltalk classNamed: className.
+	self assertVariablesValidFor: className with: instanceVariables with: traitInclusions.
 	newClass := self
-		subclass: t
-		instanceVariableNames: f, (self variableNamesStringFrom: traitInclusions)
+		subclass: className
+		instanceVariableNames: instanceVariables , (self variableNamesStringFrom: traitInclusions)
 		classVariableNames: d
 		poolDictionaries: s
 		category: cat.
-	
-	(newClass allSelectors intersection: (traitInclusions flatCollect: #includedSelectors )) 
-		ifNotEmptyDo: [:intersection |
-			oldClass ifNotNil: [ Smalltalk at: t put: oldClass ].
-			self error:  newClass name, ' already understands: ', intersection].
-	
-	traitInclusions do: [:traitInclusion | 
-		traitInclusion selectors do: [:selector |
-			newClass 
-				compile: (traitInclusion sourceForSelector: selector)
-				classified: self traitProtocolPrefix, traitInclusion traitClassName ]].
-	
-	^newClass
+	newClass assertNoNameClashesWith: traitInclusions restoring: oldClass.
+	newClass addMethodsFrom: traitInclusions.
+	^ newClass

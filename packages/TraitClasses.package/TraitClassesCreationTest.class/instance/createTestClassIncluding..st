@@ -1,7 +1,7 @@
 as yet unclassified
 createTestClassIncluding: anArray
 
-	^ Object 
+	^ TraitClassesBaseClass 
 		subclass: self class testClassName 
 		includes: anArray
 		instanceVariableNames: 'existingVariable'

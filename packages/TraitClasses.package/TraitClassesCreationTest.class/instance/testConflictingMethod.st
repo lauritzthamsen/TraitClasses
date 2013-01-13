@@ -1,8 +1,10 @@
 as yet unclassified
 testConflictingMethod
 
+	| conflictingName |
+	conflictingName := self class conflictingMethodName.
 	self 
-		should: [self createTestClassIncludingSelectors: {#name}]
+		should: [self createTestClassIncludingSelectors: {conflictingName}]
 		raise: Error
-		whoseDescriptionIncludes: 'name'
-		description: '#name conflicts with Object>>#name and error message should indicate that'.
+		whoseDescriptionIncludes: 'already understands' 
+		description: conflictingName, ' conflicts with Object>>', conflictingName, ' and error message should indicate that'

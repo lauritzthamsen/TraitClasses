@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addMethodsFrom:" : "TP 1/9/2013 17:14:10.369",
+		"assertNoNameClashesWith:restoring:" : "TP 1/9/2013 18:14:22.439",
 		"assertVariablesToIncludeFrom:dontAlreadyExistIn:or:" : "lt 1/9/2013 16:24:41.868",
-		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 1/9/2013 16:23:14.8",
-		"traitProtocolPrefix" : "lt 12/29/2012 16:21:54.951",
+		"assertVariablesValidFor:with:with:" : "TP 1/9/2013 18:19:09.999",
+		"nameClashingSelectorsWith:" : "TP 1/9/2013 17:09:27.615",
+		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "TP 1/9/2013 18:19:10.021",
+		"traitProtocolPrefix" : "TP 1/9/2013 17:14:35.503",
 		"variableNamesStringFrom:" : "lt 1/9/2013 15:59:13.377" } }
