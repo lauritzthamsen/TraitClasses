@@ -1,0 +1,4 @@
+*TraitClasses
+traitProtocolPrefix 
+
+	^ 'traits - '

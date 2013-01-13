@@ -5,4 +5,5 @@
 		"createTestClassIncluding:" : "lt 12/29/2012 16:02:38.016",
 		"tearDown" : "lt 12/29/2012 15:44:14.515",
 		"testConflictingMethod" : "lt 12/29/2012 16:11:56.14",
-		"testExampleMethod" : "lt 12/29/2012 16:03:04.331" } }
+		"testExampleMethod" : "lt 12/29/2012 16:03:04.331",
+		"testProtocolOfExampleMethod" : "lt 12/29/2012 16:20:53.54" } }

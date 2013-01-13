@@ -15,6 +15,8 @@ subclass: t includes: anArray instanceVariableNames: f classVariableNames: d poo
 			self error:  newClass name, ' already understands: ', intersection].  
 		
 	traitMethods do: [:each |
-		newClass compile: each getSource asString].
+		newClass 
+			compile: each getSource asString
+			classified: self traitProtocolPrefix, each methodHome name ].
 	
 	^newClass
