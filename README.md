@@ -25,5 +25,5 @@ Superclass subclass: #SubclassName
 	category: 'Kernel-Models'
 ```
 
-## Module systems course at HPI
+## Module Systems course at HPI
 This project is part of the course Module Systems of the HPI's Software Architecture Group, see http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/modulsysteme.html for the course description.
