@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"testClassName" : "lt 12/29/2012 15:43:56.699" },
+	"instance" : {
+		"setUp" : "lt 12/29/2012 15:44:10.436",
+		"tearDown" : "lt 12/29/2012 15:44:14.515",
+		"testExampleMethod" : "lt 12/29/2012 15:45:00.937" } }
