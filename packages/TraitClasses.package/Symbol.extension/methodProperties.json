@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"protocols:" : "lt 12/29/2012 16:37:18.931",
-		"selectors:" : "lt 12/29/2012 16:29:55.123" } }
+		"methodsInProtocols:" : "lt 12/29/2012 16:51:28.579",
+		"protocols:" : "lt 12/29/2012 16:51:48.596",
+		"selectors:" : "lt 12/29/2012 16:29:55.123",
+		"selectors:protocols:" : "lt 12/29/2012 16:52:27.223" } }
