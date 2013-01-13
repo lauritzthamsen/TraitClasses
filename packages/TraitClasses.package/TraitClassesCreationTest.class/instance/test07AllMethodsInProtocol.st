@@ -1,8 +1,8 @@
 as yet unclassified
-testAllMethodsInProtocol
+test07AllMethodsInProtocol
 
 	| testClass protocolMethods |
-	testClass := self createTestClassIncluding: {#TraitClassesExampleTraitClass protocols: {'exampleProtocol'}}.
+	testClass := self classIncluding: {#TraitClassesExampleTraitClass protocols: {'exampleProtocol'}}.
 
 	protocolMethods := TraitClassesExampleTraitClass organization listAtCategoryNamed: 'exampleProtocol'.
 

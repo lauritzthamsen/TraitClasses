@@ -1,8 +1,8 @@
 as yet unclassified
-createTestClassIncluding: anArray
+classIncluding: anArray
 
 	^ TraitClassesBaseClass 
-		subclass: self class testClassName 
+		subclass: self class defaultClassName 
 		includes: anArray
 		instanceVariableNames: 'existingVariable'
 		classVariableNames: ''

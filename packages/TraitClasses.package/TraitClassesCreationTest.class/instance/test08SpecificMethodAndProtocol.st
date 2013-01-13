@@ -1,8 +1,8 @@
 as yet unclassified
-testSpecificMethodAndProtocol
+test08SpecificMethodAndProtocol
 
 	| testClass traitMethods |
-	testClass := self createTestClassIncluding: 
+	testClass := self classIncluding: 
 		{#TraitClassesExampleTraitClass
 			selectors: {#exampleMethod3} 
 			protocols: {'exampleProtocol'}}.

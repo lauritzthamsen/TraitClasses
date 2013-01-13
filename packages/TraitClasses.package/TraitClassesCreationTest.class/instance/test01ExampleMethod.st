@@ -1,9 +1,9 @@
 as yet unclassified
-testExampleMethod
+test01ExampleMethod
 
 	| testClass |
-	testClass := self createTestClassIncludingSelectors: {#exampleMethod}.
-
+	testClass := self classIncludingSelectors: {#exampleMethod}.
+	
 	self 
 		assert: 20 
 		equals: testClass new exampleMethod.

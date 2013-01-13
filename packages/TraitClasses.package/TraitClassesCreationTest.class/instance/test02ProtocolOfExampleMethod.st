@@ -1,7 +1,9 @@
 as yet unclassified
-testProtocolOfExampleMethod
+test02ProtocolOfExampleMethod
+
 	| testClass |
-	testClass := self createTestClassIncludingSelectors: {#exampleMethod}.
+	testClass := self classIncludingSelectors: {#exampleMethod}.
+	
 	self
 		assert: Class traitProtocolPrefix , 'TraitClassesExampleTraitClass'
 		equals: (testClass organization categoryOfElement: #exampleMethod)

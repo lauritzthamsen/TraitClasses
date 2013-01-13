@@ -1,4 +1,4 @@
 as yet unclassified
 tearDown
 
-	Smalltalk globals removeClassNamed: self class testClassName 
+	Smalltalk globals removeClassNamed: self class defaultClassName 

@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"badBadConflictingMethodName" : "TP 1/9/2013 18:09:36.631",
+		"badConflictingMethodNameImplementedInSuperClass" : "lt 1/13/2013 15:02:10.84",
 		"exampleMethod" : "lt 12/29/2012 15:40:09.9",
 		"exampleMethod2" : "lt 12/29/2012 16:32:34.466",
 		"exampleMethod3" : "lt 12/29/2012 16:49:03.43",
+		"foo" : "lt 1/13/2013 14:52:24.715",
 		"name" : "lt 12/29/2012 16:04:44.926" } }

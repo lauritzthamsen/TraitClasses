@@ -1,8 +1,8 @@
 as yet unclassified
-testMultipleInstanceVariables
+test12MultipleInstanceVariables
 
 	| testClass variables |
 	variables := {'exampleVariable'. 'exampleVariable2'. 'exampleVariable3'}.
-	testClass := self createTestClassIncluding: {#TraitClassesExampleTraitClass variables: variables}.
+	testClass := self classIncluding: {#TraitClassesExampleTraitClass variables: variables}.
 	
 	self assert: (testClass allInstVarNames includesAllOf: variables).
