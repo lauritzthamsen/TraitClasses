@@ -19,7 +19,9 @@ transformIncludesArray: anArray
 	compiledMethods do: [:method || sourceCode |
 		sourceCode := 
 			(renamings includesKey: method selector)
-				ifTrue: [self renamedSelectorSource: method]
+				ifTrue: [self 
+					renameSelectorSource: method 
+					to: (renamings at: method selector)]
 				ifFalse: [method getSource ].
 		(classesToMethods at: method methodClass name) add: method selector -> sourceCode].
 	
