@@ -1,7 +1,7 @@
 TraitClasses: Reconciling Classes and Traits
 ============================================
 
-## Module Systems course at HPI
+## Reconciling Classes and Traits
 An attempt to make any class in Squeak/Smalltalk usable as a trait. This way, programmers don't have to decide upfront to either implement 
 something as a class or as a trait.
 
@@ -24,3 +24,6 @@ Superclass subclass: #SubclassName
 	poolDictionaries: ''
 	category: 'Kernel-Models'
 ```
+
+## Module systems course at HPI
+This project is part of the course Module Systems of the HPI's Software Architecture Group, see http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/modulsysteme.html for the course description.
