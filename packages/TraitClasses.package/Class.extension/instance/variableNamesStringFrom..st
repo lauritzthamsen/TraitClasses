@@ -1,5 +1,5 @@
 *TraitClasses
-variableNamesFrom: traitInclusions
+variableNamesStringFrom: traitInclusions
 
 	^ (String streamContents: [:stream | 
 		stream nextPut: Character space. 

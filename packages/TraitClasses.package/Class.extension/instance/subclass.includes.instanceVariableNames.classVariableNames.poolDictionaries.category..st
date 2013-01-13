@@ -4,9 +4,11 @@ subclass: t includes: traitInclusions instanceVariableNames: f classVariableName
 	| oldClass newClass |
 	oldClass := Smalltalk classNamed: t.
 	
+	traitInclusions do: #assertVariablesExist.
+	
 	newClass := self
 		subclass: t
-		instanceVariableNames: f, (self variableNamesFrom: traitInclusions)
+		instanceVariableNames: f, (self variableNamesStringFrom: traitInclusions)
 		classVariableNames: d
 		poolDictionaries: s
 		category: cat.

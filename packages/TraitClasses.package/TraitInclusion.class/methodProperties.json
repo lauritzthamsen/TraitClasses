@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertVariablesExist" : "lt 1/9/2013 16:03:32.055",
 		"includedSelectors" : "lt 1/9/2013 15:06:55.297",
 		"initialize" : "lt 1/9/2013 15:48:42.292",
 		"methodRenamings" : "lt 1/9/2013 14:27:33.666",

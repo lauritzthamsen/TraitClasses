@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"exampleVariable" ],
+		"exampleVariable",
+		"exampleVariable2",
+		"exampleVariable3" ],
 	"name" : "TraitClassesExampleTraitClass",
 	"pools" : [
 		 ],
