@@ -1,4 +1,4 @@
-as yet unclassified
+exampleProtocol
 exampleMethod
 
 	^ 20
