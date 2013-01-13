@@ -3,7 +3,7 @@
 		"testClassName" : "lt 12/29/2012 15:43:56.699" },
 	"instance" : {
 		"createErroneousTestClass" : "TP 1/9/2013 16:02:19.253",
-		"createErroneousTestClassAddingSelectors:" : "TP 1/9/2013 16:08:52.949",
+		"createErroneousTestClassAddingSelectors:" : "TP 1/9/2013 16:22:30.253",
 		"createTestClassIncluding:" : "lt 12/29/2012 16:02:38.016",
 		"createTestClassIncludingSelectors:" : "TP 1/9/2013 16:15:57.147",
 		"getCreatedClass" : "TP 1/9/2013 16:09:52.993",

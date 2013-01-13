@@ -1,8 +1,5 @@
 as yet unclassified
 createErroneousTestClassAddingSelectors: additionalSelectors
-	
-	| selectors |
-	selectors := {#name} , additionalSelectors.
-	[ self createTestClassIncluding: {(#TraitClassesExampleTraitClass selectors: selectors )} ]
+	[ self createTestClassIncludingSelectors: ({#name} , additionalSelectors) ]
 		on: Error
 		do: [ "nothing" ]
