@@ -2,7 +2,7 @@ as yet unclassified
 sourceForSelector: aSelector
 
 	| compiledMethod |
-	compiledMethod := (Smalltalk classNamed: self traitClassName) >> aSelector.
+	compiledMethod := self getTraitClass >> aSelector.
 	
 	^ (self methodRenamings includesKey: aSelector) 
 		ifTrue: [compiledMethod getSourceWithRenamedSelector: 
