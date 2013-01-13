@@ -1,6 +1,8 @@
 *TraitClasses
 subclass: t includes: traitInclusions instanceVariableNames: f classVariableNames: d poolDictionaries: s category: cat 
-	| newClass |
+
+	| oldClass newClass |
+	oldClass := Smalltalk classNamed: t.
 	newClass := self
 		subclass: t
 		instanceVariableNames: f
@@ -10,8 +12,9 @@ subclass: t includes: traitInclusions instanceVariableNames: f classVariableName
 	
 	(newClass allSelectors intersection: (traitInclusions flatCollect: #includedSelectors )) 
 		ifNotEmptyDo: [:intersection |
-			self error:  newClass name, ' already understands: ', intersection].  
-		
+			oldClass ifNotNil: [ Smalltalk at: t put: oldClass ].
+			self error:  newClass name, ' already understands: ', intersection].
+	
 	traitInclusions do: [:traitInclusion | 
 		traitInclusion selectors do: [:selector |
 			newClass 
