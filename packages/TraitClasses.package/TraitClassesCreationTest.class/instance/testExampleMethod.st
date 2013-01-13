@@ -2,7 +2,7 @@ as yet unclassified
 testExampleMethod
 
 	| testClass |
-	testClass := self createTestClassIncluding: {#TraitClassesExampleTraitClass selectors: {#exampleMethod}}.
+	testClass := self createTestClassIncludingSelectors: {#exampleMethod}.
 
 	self 
 		assert: 20 
