@@ -1,6 +1,6 @@
 *TraitClasses
 subclass: t includes: anArray instanceVariableNames: f classVariableNames: d poolDictionaries: s category: cat 
-	| newClass |
+	| newClass traitMethods |
 	newClass := self
 		subclass: t
 		instanceVariableNames: f
@@ -8,7 +8,13 @@ subclass: t includes: anArray instanceVariableNames: f classVariableNames: d poo
 		poolDictionaries: s
 		category: cat.
 		
-	(self associationsToCompiledMethods: anArray) do: [:each |
+	traitMethods := self associationsToCompiledMethods: anArray.
+	
+	(newClass allSelectors intersection: (traitMethods collect: #selector)) 
+		ifNotEmptyDo: [:intersection |
+			self error:  newClass name, ' already understands: ', intersection].  
+		
+	traitMethods do: [:each |
 		newClass compile: each getSource asString].
 	
 	^newClass

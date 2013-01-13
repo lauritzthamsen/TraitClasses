@@ -1,9 +1,9 @@
 as yet unclassified
-setUp
+createTestClassIncluding: anArray
 
-	testClass := Object 
+	^ Object 
 		subclass: self class testClassName 
-		includes: {#TraitClassesExampleTraitClass -> {#exampleMethod}}
+		includes: anArray
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
