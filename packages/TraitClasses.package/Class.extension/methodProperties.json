@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"associationsToCompiledMethods:" : "lt 12/29/2012 15:28:15.473",
-		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 12/29/2012 16:24:38.445",
-		"traitProtocolPrefix" : "lt 12/29/2012 16:21:54.951" } }
+		"renamedSelectorSource:" : "lt 12/29/2012 17:36:03.3689999999999998",
+		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 12/29/2012 17:33:55.08",
+		"traitProtocolPrefix" : "lt 12/29/2012 16:21:54.951",
+		"transformIncludesArray:" : "lt 12/29/2012 17:31:34.816" } }
