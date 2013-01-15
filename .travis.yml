@@ -1,0 +1,25 @@
+# copied from github.com/dalehenrich/builderCI
+
+language: erlang
+
+env:
+   - ST=Squeak-4.3
+   - ST=Squeak-4.4
+
+install:
+   - export PROJECT_HOME="$(pwd)"
+   - cd $HOME
+   - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - unzip -q builderCI.zip
+   - cd dalehenrich-builderCI*
+   - source build_env_vars
+   - ln -s $PROJECT_HOME $GIT_PATH
+   - ./build_image.sh
+
+script:
+   - ./build.sh -i $ST -m -f "$PROJECT_HOME/tests/travisCI.st" -o travisCI
+   - cd "${BUILD_PATH}/travisCI/"
+   - $BUILDER_CI_HOME/buildImageErrorCheck.sh # dump Transcript on error and exit
+   - $BUILDER_CI_HOME/buildTravisStatusCheck.sh # dump Transcript on failed tests and exit
+# reach here on successful build
+#   - cat TravisTranscript.txt
