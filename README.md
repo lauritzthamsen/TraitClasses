@@ -1,4 +1,4 @@
-TraitClasses: Reconciling Classes and Traits
+TraitClasses: Reconciling Classes and Traits[![Build Status](https://travis-ci.org/lauritzthamsen/TraitClasses.png?branch=master)](undefined)
 ============================================
 
 ## Reconciling Classes and Traits
