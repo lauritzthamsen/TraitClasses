@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfTraitClasses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfTraitClasses",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
