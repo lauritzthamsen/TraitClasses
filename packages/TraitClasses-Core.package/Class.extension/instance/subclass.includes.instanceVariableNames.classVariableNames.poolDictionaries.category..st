@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 subclass: className includes: traitInclusions instanceVariableNames: instanceVariables classVariableNames: d poolDictionaries: s category: cat
 	| oldClass newClass |
 	oldClass := Smalltalk classNamed: className.

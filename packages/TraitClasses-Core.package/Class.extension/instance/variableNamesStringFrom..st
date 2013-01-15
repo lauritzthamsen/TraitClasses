@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 variableNamesStringFrom: traitInclusions
 
 	^ (String streamContents: [:stream | 

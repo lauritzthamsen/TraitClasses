@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 variables: anArray
 	
 	^ TraitInclusion new

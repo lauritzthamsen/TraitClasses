@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 assertVariablesToIncludeFrom: traitInclusions dontAlreadyExistIn: className or: variablesString
 
 	| variablesToInclude |

@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 getSourceWithRenamedSelector: newSelector
 
 	(newSelector numArgs == self numArgs) 

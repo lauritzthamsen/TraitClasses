@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 addMethodsFrom: traitInclusions
 	traitInclusions
 		do: [ :traitInclusion | 

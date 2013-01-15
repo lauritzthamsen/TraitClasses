@@ -1,4 +1,4 @@
-*TraitClasses
+*TraitClasses-Core
 assertNoNameClashesWith: traitInclusions restoring: oldClass
 	(self nameClashingSelectorsWith: traitInclusions)
 		ifNotEmptyDo: [ :intersection | 
