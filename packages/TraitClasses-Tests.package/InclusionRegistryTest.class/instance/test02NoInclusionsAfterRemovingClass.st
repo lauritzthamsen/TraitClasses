@@ -1,5 +1,5 @@
-as yet unclassified
-test02NoInclusionsForRemovedClass
+tests
+test02NoInclusionsAfterRemovingClass
 
 	| testClass |
 	testClass := self classIncludingSelectors: {}.
