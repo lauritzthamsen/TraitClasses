@@ -10,5 +10,5 @@
 	"name" : "InclusionRegistryTest",
 	"pools" : [
 		 ],
-	"super" : "TraitClassesCreationTest",
+	"super" : "TraitClassesTest",
 	"type" : "normal" }

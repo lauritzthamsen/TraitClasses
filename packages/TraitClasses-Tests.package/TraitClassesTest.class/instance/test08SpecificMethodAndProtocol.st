@@ -3,11 +3,11 @@ test08SpecificMethodAndProtocol
 
 	| testClass traitMethods |
 	testClass := self classIncluding: 
-		{#TraitClassesExampleTraitClass
+		{#ExampleTraitClass
 			selectors: {#exampleMethod3} 
 			protocols: {'exampleProtocol'}}.
 
-	traitMethods := (TraitClassesExampleTraitClass organization listAtCategoryNamed: 'exampleProtocol') asSet.
+	traitMethods := (ExampleTraitClass organization listAtCategoryNamed: 'exampleProtocol') asSet.
 	traitMethods add: #exampleMethod3.
 
 	traitMethods do: [:selector | self assert: (testClass canUnderstand: selector)].

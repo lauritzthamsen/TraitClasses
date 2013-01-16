@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"exampleVariable",
-		"exampleVariable2",
-		"exampleVariable3",
-		"existingVariable" ],
-	"name" : "TraitClassesExampleTraitClass",
+		"testClass" ],
+	"name" : "TraitClassesTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -2,7 +2,7 @@ as yet unclassified
 test13MethodAndVariable
 
 	| testClass |
-	testClass := self classIncluding: {#TraitClassesExampleTraitClass 
+	testClass := self classIncluding: {#ExampleTraitClass 
 			selectors: {#exampleMethod}
 			variables: {#exampleVariable}}.
 	

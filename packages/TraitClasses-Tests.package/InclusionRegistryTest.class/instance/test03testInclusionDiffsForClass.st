@@ -3,11 +3,11 @@ test03testInclusionDiffsForClass
 
 	| testClass newInclusion diffs |
 	testClass := self classIncluding: 
-		{#TraitClassesExampleTraitClass  
+		{self class exampleTraitClassName 
 			selectors: {#exampleMethod}
 			variables: {#exampleVariable}}.
 	newInclusion := TraitInclusion new
-		traitClassName: #TraitClassesExampleTraitClass;
+		traitClassName: self class exampleTraitClassName;
 		selectors: {#exampleMethod2. #exampleMethod3};
 		variables: {}.
 		

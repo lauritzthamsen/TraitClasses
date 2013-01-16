@@ -5,5 +5,5 @@ test02ProtocolOfExampleMethod
 	testClass := self classIncludingSelectors: {#exampleMethod}.
 	
 	self
-		assert: Class traitProtocolPrefix , 'TraitClassesExampleTraitClass'
+		assert: Class traitProtocolPrefix , self class exampleTraitClassName
 		equals: (testClass organization categoryOfElement: #exampleMethod)

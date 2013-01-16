@@ -5,4 +5,4 @@
 		"tearDown" : "lt 1/16/2013 10:56:25.054",
 		"test01InclusionsInRegistryForNewClass" : "lt 1/16/2013 10:39:02.836",
 		"test02NoInclusionsForRemovedClass" : "lt 1/16/2013 14:55:24.109",
-		"test03testInclusionDiffsForClass" : "lt 1/16/2013 15:21:32.069" } }
+		"test03testInclusionDiffsForClass" : "lt 1/16/2013 15:27:05.9559999999999995" } }
