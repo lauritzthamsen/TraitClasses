@@ -7,8 +7,8 @@
 		"test01InclusionsInRegistryForNewClass" : "lt 1/16/2013 10:39:02.836",
 		"test02NoInclusionsAfterRemovingClass" : "lt 1/16/2013 15:57:04.551",
 		"test02NoInclusionsForRemovedClass" : "lt 1/16/2013 14:55:24.109",
-		"test03testInclusionDiffsAddedMethods" : "lt 1/16/2013 16:01:30.155",
-		"test04testInclusionDiffsAddedVariables" : "lt 1/16/2013 16:02:03.817",
-		"test05testInclusionDiffsRemovedMethods" : "lt 1/16/2013 16:01:50.314",
-		"test06testInclusionDiffsRemovedVariables" : "lt 1/16/2013 16:02:00.773",
-		"traitInclusionWithTwoOtherMethodsAndNoVariable" : "lt 1/16/2013 15:58:33.591" } }
+		"test03testInclusionChangesAddedMethods" : "lt 1/16/2013 22:59:01.188",
+		"test04testInclusionChangesAddedVariables" : "lt 1/16/2013 22:58:55.405",
+		"test05testInclusionChangesRemovedMethods" : "lt 1/16/2013 22:58:49.356",
+		"test06testInclusionChangesRemovedVariables" : "lt 1/16/2013 22:58:43.906",
+		"traitInclusionWithTwoOtherMethodsAndNoVariable" : "lt 1/16/2013 22:57:50.983" } }

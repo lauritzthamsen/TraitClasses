@@ -1,5 +1,5 @@
 *TraitClasses-Core
-removeMethodsFrom: traitInclusionDiffs
+removeMethodsFrom: changes
 
-	(traitInclusionDiffs collect: #methodsToRemove) flatten
+	(changes collect: #methodsToRemove) flatten
 		do: [:selector | self removeSelector: selector].

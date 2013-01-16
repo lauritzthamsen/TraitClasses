@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"between:and:" : "lt 1/16/2013 22:44:52.551",
+		"new" : "lt 1/16/2013 13:42:36.647" },
+	"instance" : {
+		"addedMethodRenamings" : "lt 1/16/2013 22:44:05.617",
+		"addedMethods" : "lt 1/16/2013 22:43:55.108",
+		"addedVariables" : "lt 1/16/2013 22:43:47.732",
+		"assertIncludedVariablesExistInTrait" : "lt 1/16/2013 22:53:26.612",
+		"changedMethodRenamings" : "lt 1/16/2013 22:43:34.071",
+		"currentInclusion" : "lt 1/16/2013 22:41:26.12",
+		"currentInclusion:newInclusion:" : "lt 1/16/2013 22:45:09.526",
+		"methodsToAdd" : "lt 1/16/2013 17:26:20.383",
+		"methodsToAddDueToChangedRenaming" : "lt 1/16/2013 17:29:41.348",
+		"methodsToRemove" : "lt 1/16/2013 17:25:58.471",
+		"methodsToRemoveDueToChangedRenaming" : "lt 1/16/2013 17:29:02.594",
+		"newInclusion" : "lt 1/16/2013 22:41:23.264",
+		"removedMethodRenamings" : "lt 1/16/2013 22:43:17.768",
+		"removedMethods" : "lt 1/16/2013 22:43:11.895",
+		"removedVariables" : "lt 1/16/2013 22:43:04.533" } }

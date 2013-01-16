@@ -1,5 +1,6 @@
 *TraitClasses-Core
-updateMethodsFrom: diffs
+updateMethodsFrom: changes
+
 	self            
-		removeMethodsFrom: diffs;
-		addMethodsFrom: diffs
+		removeMethodsFrom: changes;
+		addMethodsFrom: changes.

@@ -2,8 +2,8 @@ as yet unclassified
 test06RenameExampleMethod
 
 	| testClass |
-	testClass := self classIncludingSelectors: {#exampleMethod -> #renamedExampleMethod}.
-		
+	testClass := self classIncludingSelectors: {#exampleMethod -> #renamedExampleMethod}.		
+
 	self 
 		deny: (testClass canUnderstand: #exampleMethod).
 		

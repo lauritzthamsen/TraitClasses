@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"currentInclusion" : "lt 1/16/2013 22:47:00.257",
+		"newInclusion" : "lt 1/16/2013 22:46:51.139",
+		"testTraitInclusionChangesAddedMethodRenamings" : "lt 1/16/2013 22:57:18.371",
+		"testTraitInclusionChangesAddedMethods" : "lt 1/16/2013 22:57:11.773",
+		"testTraitInclusionChangesAddedVariables" : "lt 1/16/2013 22:57:07.612",
+		"testTraitInclusionChangesChangedMethodRenamings" : "lt 1/16/2013 22:57:01.657",
+		"testTraitInclusionChangesRemovedMethodRenamings" : "lt 1/16/2013 22:56:57.573",
+		"testTraitInclusionChangesRemovedMethods" : "lt 1/16/2013 22:56:53.436",
+		"testTraitInclusionChangesRemovedVariables" : "lt 1/16/2013 22:56:49.022" } }
