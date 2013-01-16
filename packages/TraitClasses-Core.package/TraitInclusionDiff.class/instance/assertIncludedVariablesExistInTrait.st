@@ -1,0 +1,4 @@
+as yet unclassified
+assertIncludedVariablesExistInTrait 
+
+	self currentInclusion assertIncludedVariablesExistInTrait.

@@ -5,6 +5,7 @@
 	"instance" : {
 		"addedMethods" : "lt 1/16/2013 13:29:04.48",
 		"addedVariables" : "lt 1/16/2013 13:31:17.01",
+		"assertIncludedVariablesExistInTrait" : "lt 1/16/2013 16:10:25.882",
 		"currentInclusion" : "lt 1/16/2013 13:09:37.054",
 		"originalInclusion" : "lt 1/16/2013 13:09:37.045",
 		"originalInclusion:currentInclusion:" : "lt 1/16/2013 13:44:29.515",
