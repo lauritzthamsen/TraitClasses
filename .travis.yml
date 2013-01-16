@@ -1,6 +1,6 @@
 # copied from github.com/dalehenrich/builderCI
 
-language: erlang
+language: ruby
 
 env:
    - ST=Squeak-4.3
