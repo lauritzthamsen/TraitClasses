@@ -20,5 +20,7 @@
 		"test10ConflictingVariable" : "lt 1/16/2013 14:28:51.13",
 		"test11IncludedInstanceVariablesMustExistInTrait" : "lt 1/13/2013 15:00:38.177",
 		"test12MultipleInstanceVariables" : "lt 1/13/2013 15:00:38.193",
-		"test13EvaluateClassDescriptionTwice" : "lt 1/16/2013 14:47:39.377",
-		"test14AddAndRemoveExampleMethod" : "lt 1/16/2013 14:42:51.188" } }
+		"test13MethodAndVariable" : "lt 1/16/2013 15:05:06.941",
+		"test14AddAndRemoveExampleMethod" : "lt 1/16/2013 14:42:51.188",
+		"test14EvaluateClassDescriptionTwice" : "lt 1/16/2013 14:58:09.008",
+		"test15AddAndRemoveExampleMethod" : "lt 1/16/2013 14:58:12.159" } }

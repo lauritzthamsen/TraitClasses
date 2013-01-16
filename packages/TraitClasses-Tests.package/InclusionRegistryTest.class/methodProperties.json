@@ -4,4 +4,4 @@
 	"instance" : {
 		"tearDown" : "lt 1/16/2013 10:56:25.054",
 		"test01InclusionsInRegistryForNewClass" : "lt 1/16/2013 10:39:02.836",
-		"test02NoInclusionsForRemovedClass" : "lt 1/16/2013 10:56:41.902" } }
+		"test02NoInclusionsForRemovedClass" : "lt 1/16/2013 14:55:24.109" } }

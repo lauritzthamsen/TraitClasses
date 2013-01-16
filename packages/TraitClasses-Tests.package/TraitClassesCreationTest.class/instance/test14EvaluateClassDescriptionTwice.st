@@ -1,5 +1,5 @@
 as yet unclassified
-test13EvaluateClassDescriptionTwice
+test14EvaluateClassDescriptionTwice
 
 	| testClass |
 	testClass := self classIncludingSelectors: {#exampleMethod}.

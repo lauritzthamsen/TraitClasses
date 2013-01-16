@@ -1,7 +1,6 @@
 *TraitClasses-Core
 variables: anArray
 	
-	^ TraitInclusion new
-		variables: anArray;
-		traitClassName: self;  
-		yourself
+	^ self 
+		selectors: {}
+		variables: anArray
