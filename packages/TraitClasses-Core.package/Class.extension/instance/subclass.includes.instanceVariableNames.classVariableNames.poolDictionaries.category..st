@@ -3,9 +3,12 @@ subclass: className includes: traitInclusions instanceVariableNames: instanceVar
 	
 	| oldClass newClass instanceVariableNames diffs |
 	oldClass := Smalltalk classNamed: className.
-	diffs := InclusionRegistry current inclusionDiffsForClass: className with: traitInclusions.	"variables"
+	diffs := InclusionRegistry current inclusionDiffsForClass: className with: traitInclusions.
 	
-	instanceVariableNames := self createInstanceVariableStringFrom: instanceVariables with: className with: diffs.
+	instanceVariableNames := self 
+		instanceVariableStringFrom: instanceVariables 
+		and: className 
+		and: diffs.
 	
 	newClass := self
 		subclass: className
@@ -13,9 +16,11 @@ subclass: className includes: traitInclusions instanceVariableNames: instanceVar
 		classVariableNames: d
 		poolDictionaries: s
 		category: cat.	
-			
-	"methods"
-	newClass assertNoSelectorNameClashesWith: (diffs collect: #addedMethods) flatten restoring: oldClass.
+
+	newClass 
+		assertNoSelectorNameClashes: (diffs collect: #addedMethods) flatten 
+		restoring: oldClass.
+		
 	newClass
 		removeMethodsFrom: diffs;
 		addMethodsFrom: diffs.

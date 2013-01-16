@@ -1,5 +1,5 @@
 *TraitClasses-Core
-createInstanceVariableStringFrom: instanceVariables with: className with: diffs
+instanceVariableStringFrom: instanceVariables and: className and: diffs
 
 	| instanceVars |
 	diffs do: #assertIncludedVariablesExistInTrait.

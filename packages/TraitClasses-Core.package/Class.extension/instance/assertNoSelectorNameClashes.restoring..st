@@ -1,5 +1,5 @@
 *TraitClasses-Core
-assertNoSelectorNameClashesWith: aCollection restoring: oldClass
+assertNoSelectorNameClashes: aCollection restoring: oldClass
 
 	(self allSelectors intersection: aCollection)
 		ifNotEmptyDo: [:conflictingMethods | 
