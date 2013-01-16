@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TraitExistingVariablesChecker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

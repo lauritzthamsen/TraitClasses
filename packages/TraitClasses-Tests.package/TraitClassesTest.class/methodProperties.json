@@ -2,7 +2,9 @@
 	"class" : {
 		"conflictingMethodName" : "lt 1/13/2013 15:02:15.465",
 		"defaultClassName" : "lt 1/13/2013 14:43:55.529",
-		"exampleTraitClassName" : "lt 1/16/2013 15:26:00.041" },
+		"exampleTraitClassName" : "lt 1/16/2013 15:26:00.041",
+		"instVarUsingErrorMessage" : "TP 1/16/2013 18:39:18.21",
+		"instVarUsingMethodName" : "TP 1/16/2013 17:26:40.008" },
 	"instance" : {
 		"classIncluding:" : "lt 1/16/2013 16:04:38.797",
 		"classIncludingSelectors:" : "lt 1/16/2013 15:25:50.144",
@@ -29,4 +31,6 @@
 		"test16AddAndRemoveExampleVariable" : "lt 1/16/2013 15:31:42.153",
 		"test17ChangeASelectorRenaming" : "lt 1/16/2013 17:29:27.753",
 		"test18RemoveSelectorRenaming" : "lt 1/16/2013 16:28:41.088",
-		"test19AddSelectorRenamingOfAlreadyIncludedSelector" : "lt 1/16/2013 17:16:06.466" } }
+		"test19AddSelectorRenamingOfAlreadyIncludedSelector" : "lt 1/16/2013 17:16:06.466",
+		"testAddingMethodUsingInstanceVarIncludingInstanceVarDoesNotRaiseError" : "TP 1/16/2013 19:52:31.726",
+		"testAddingMethodUsingInstanceVarMethodRaisesError" : "TP 1/16/2013 19:45:42.222" } }

@@ -17,9 +17,12 @@ subclass: className includes: traitInclusions instanceVariableNames: instanceVar
 		poolDictionaries: s
 		category: cat.	
 
-	newClass 
-		assertNoSelectorNameClashes: (diffs collect: #addedMethods) flatten 
-		restoring: oldClass.
+	[newClass assertNoSelectorNameClashesWith: (diffs collect: #addedMethods) flatten.
+	 TraitExistingVariablesChecker runWith: traitInclusions ]
+	ifError: [ :error |
+		self 
+			restoreClass: oldClass;
+			error: error ].    
 		
 	newClass
 		removeMethodsFrom: diffs;
