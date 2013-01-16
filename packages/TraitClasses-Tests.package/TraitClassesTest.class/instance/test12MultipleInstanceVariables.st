@@ -3,6 +3,6 @@ test12MultipleInstanceVariables
 
 	| testClass variables |
 	variables := {'exampleVariable'. 'exampleVariable2'. 'exampleVariable3'}.
-	testClass := self classIncluding: {#ExampleTraitClass variables: variables}.
+	testClass := self classIncludingVariables: variables.
 	
 	self assert: (testClass allInstVarNames includesAllOf: variables).

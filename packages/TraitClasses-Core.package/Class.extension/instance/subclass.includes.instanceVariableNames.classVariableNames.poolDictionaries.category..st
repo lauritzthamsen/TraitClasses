@@ -9,7 +9,7 @@ subclass: className includes: traitInclusions instanceVariableNames: instanceVar
 	"variables"
 	traitInclusions do: #assertIncludedVariablesExistInTrait.
 	instanceVars := (instanceVariables subStrings: ' ') asOrderedCollection.
-	diffs do: [:inclusionDiff | instanceVars removeAll: inclusionDiff removedVariables].
+	diffs do: [:inclusionDiff | instanceVars removeAllFoundIn: inclusionDiff removedVariables].
 	self 
 		assertVariablesToInclude: (diffs collect: #addedVariables) flatten
 		dontAlreadyExistIn: className 

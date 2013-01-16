@@ -2,6 +2,6 @@ as yet unclassified
 test09InstanceVariable
 
 	| testClass |
-	testClass := self classIncluding: {#ExampleTraitClass variables: {#exampleVariable}}.
+	testClass := self classIncludingVariables: {#exampleVariable}.
 	
 	self assert: (testClass allInstVarNames includes: 'exampleVariable').
