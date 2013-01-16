@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"addMethodsFrom:" : "TP 1/9/2013 17:14:10.369",
-		"assertNoNameClashesWith:restoring:" : "TP 1/9/2013 18:14:22.439",
+		"assertNoNameClashesWith:restoring:" : "lt 1/16/2013 10:27:02.73",
 		"assertVariablesToIncludeFrom:dontAlreadyExistIn:or:" : "lt 1/9/2013 16:24:41.868",
 		"assertVariablesValidFor:with:with:" : "TP 1/9/2013 18:19:09.999",
 		"nameClashingSelectorsWith:" : "TP 1/9/2013 17:09:27.615",
-		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "TP 1/9/2013 18:19:10.021",
+		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 1/16/2013 10:28:27.073",
 		"traitProtocolPrefix" : "TP 1/9/2013 17:14:35.503",
 		"variableNamesStringFrom:" : "lt 1/9/2013 15:59:13.377" } }

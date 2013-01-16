@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Core",
+	"classinstvars" : [
+		"current" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inclusions" ],
+	"name" : "InclusionRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

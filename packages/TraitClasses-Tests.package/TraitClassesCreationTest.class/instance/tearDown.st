@@ -1,4 +1,5 @@
 as yet unclassified
 tearDown
 
-	Smalltalk globals removeClassNamed: self class defaultClassName 
+	(Smalltalk classNamed: self class defaultClassName) ifNotNilDo: [:class |
+		class removeFromSystem].

@@ -7,7 +7,8 @@
 		"classIncludingSelectors:" : "lt 1/13/2013 15:00:47.621",
 		"classIncludingSelectorsQuietly:" : "lt 1/13/2013 15:06:40.515",
 		"createdClass" : "lt 1/13/2013 14:46:10.117",
-		"tearDown" : "lt 1/13/2013 14:43:55.545",
+		"expectedFailures" : "lt 1/16/2013 11:03:09.418",
+		"tearDown" : "lt 1/16/2013 10:58:21.423",
 		"test01ExampleMethod" : "lt 1/13/2013 15:00:47.63",
 		"test02ProtocolOfExampleMethod" : "lt 1/13/2013 15:00:47.644",
 		"test03ConflictingMethodRaisesError" : "lt 1/13/2013 15:00:47.625",
@@ -19,4 +20,5 @@
 		"test09InstanceVariable" : "lt 1/13/2013 15:00:38.181",
 		"test10ConflictingVariable" : "lt 1/13/2013 15:00:38.19",
 		"test11IncludedInstanceVariablesMustExistInTrait" : "lt 1/13/2013 15:00:38.177",
-		"test12MultipleInstanceVariables" : "lt 1/13/2013 15:00:38.193" } }
+		"test12MultipleInstanceVariables" : "lt 1/13/2013 15:00:38.193",
+		"test13EvaluateClassDescriptionTwice" : "lt 1/16/2013 10:20:47.8" } }
