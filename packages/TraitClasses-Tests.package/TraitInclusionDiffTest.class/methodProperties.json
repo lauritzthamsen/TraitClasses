@@ -4,7 +4,7 @@
 	"instance" : {
 		"currentInclusion" : "lt 1/16/2013 13:37:15.521",
 		"originalInclusion" : "lt 1/16/2013 13:36:46.513",
-		"testTraitInclusionDiffAddedMethods" : "lt 1/16/2013 13:35:18.739",
+		"testTraitInclusionDiffAddedMethods" : "lt 1/16/2013 16:03:44.508",
 		"testTraitInclusionDiffAddedVariables" : "lt 1/16/2013 13:35:23.06",
 		"testTraitInclusionDiffRemovedMethods" : "lt 1/16/2013 13:35:27.014",
 		"testTraitInclusionDiffRemovedVariables" : "lt 1/16/2013 13:35:30.526" } }

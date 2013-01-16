@@ -1,7 +1,7 @@
 as yet unclassified
 classIncluding: anArray
 
-	^ ExampleBaseClass 
+	^ ExampleSuperClass 
 		subclass: self class defaultClassName 
 		includes: anArray
 		instanceVariableNames: 'existingVariable'
