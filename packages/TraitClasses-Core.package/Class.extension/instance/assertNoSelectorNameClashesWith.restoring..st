@@ -1,7 +1,7 @@
 *TraitClasses-Core
-assertNoNameClashesWith: traitInclusions restoring: oldClass
+assertNoSelectorNameClashesWith: aCollection restoring: oldClass
 
-	(self nameClashingSelectorsWith: traitInclusions)
+	(self allSelectors intersection: aCollection)
 		ifNotEmptyDo: [:conflictingMethods | 
 			oldClass ifNotNil: [Smalltalk at: oldClass name put: oldClass].
 			self error: self name , ' already understands: ' , conflictingMethods].

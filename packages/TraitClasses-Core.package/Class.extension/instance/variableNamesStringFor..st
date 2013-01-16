@@ -1,8 +1,8 @@
 *TraitClasses-Core
-variableNamesStringFrom: traitInclusions
+variableNamesStringFor: aCollection
 
 	^ (String streamContents: [:stream | 
 		stream nextPut: Character space. 
-		(traitInclusions flatCollect: #variables) 
+		aCollection 
 			do: [:variable | stream nextPutAll: variable] 
 			separatedBy: [stream nextPut: Character space]])

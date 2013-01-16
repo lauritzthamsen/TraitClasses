@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"between:and:" : "lt 1/16/2013 13:42:09.252",
+		"new" : "lt 1/16/2013 13:42:36.647" },
+	"instance" : {
+		"addedMethods" : "lt 1/16/2013 13:29:04.48",
+		"addedVariables" : "lt 1/16/2013 13:31:17.01",
+		"currentInclusion" : "lt 1/16/2013 13:09:37.054",
+		"originalInclusion" : "lt 1/16/2013 13:09:37.045",
+		"originalInclusion:currentInclusion:" : "lt 1/16/2013 13:44:29.515",
+		"removedMethods" : "lt 1/16/2013 13:22:58.579",
+		"removedVariables" : "lt 1/16/2013 13:31:27.72" } }

@@ -1,10 +1,11 @@
 *TraitClasses-Core
-addMethodsFrom: traitInclusions
+addMethodsFrom: traitInclusionDiffs
 
-	traitInclusions
-		do: [:traitInclusion | 
-			traitInclusion selectors
-				do: [:selector | 
+	traitInclusionDiffs
+		do: [:traitInclusionDiff | 
+			traitInclusionDiff addedMethods
+				do: [:selector || inclusion |
+					inclusion := traitInclusionDiff currentInclusion.
 					self
-						compile: (traitInclusion sourceForSelector: selector)
-						classified: self traitProtocolPrefix , traitInclusion traitClassName]]
+						compile: (inclusion sourceForSelector: selector)
+						classified: self traitProtocolPrefix , inclusion traitClassName]]

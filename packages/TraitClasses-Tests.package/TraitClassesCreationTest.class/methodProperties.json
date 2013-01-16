@@ -16,8 +16,9 @@
 		"test06RenameExampleMethod" : "lt 1/13/2013 15:00:47.639",
 		"test07AllMethodsInProtocol" : "lt 1/13/2013 15:00:38.168",
 		"test08SpecificMethodAndProtocol" : "lt 1/13/2013 15:00:38.183",
-		"test09InstanceVariable" : "lt 1/13/2013 15:00:38.181",
-		"test10ConflictingVariable" : "lt 1/13/2013 15:00:38.19",
+		"test09InstanceVariable" : "lt 1/16/2013 14:25:55.99",
+		"test10ConflictingVariable" : "lt 1/16/2013 14:28:51.13",
 		"test11IncludedInstanceVariablesMustExistInTrait" : "lt 1/13/2013 15:00:38.177",
 		"test12MultipleInstanceVariables" : "lt 1/13/2013 15:00:38.193",
-		"test13EvaluateClassDescriptionTwice" : "lt 1/16/2013 11:50:35.484" } }
+		"test13EvaluateClassDescriptionTwice" : "lt 1/16/2013 14:47:39.377",
+		"test14AddAndRemoveExampleMethod" : "lt 1/16/2013 14:42:51.188" } }

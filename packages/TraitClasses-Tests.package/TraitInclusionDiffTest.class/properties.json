@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TraitInclusionDiffTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,24 +1,35 @@
 *TraitClasses-Core
 subclass: className includes: traitInclusions instanceVariableNames: instanceVariables classVariableNames: d poolDictionaries: s category: cat
 
-	| oldClass newClass |
-	(InclusionRegistry current inclusionsForClass: className equal: traitInclusions) 
-		ifTrue: [^ self
-			subclass: className
-			instanceVariableNames: instanceVariables
-			classVariableNames: d
-			poolDictionaries: s
-			category: cat.].  
-	
+	| oldClass newClass instanceVars diffs |
 	oldClass := Smalltalk classNamed: className.
-	self assertVariablesValidFor: className with: instanceVariables with: traitInclusions.
+	
+	diffs := InclusionRegistry current inclusionDiffsForClass: className with: traitInclusions.
+	
+	"variables"
+	traitInclusions do: #assertIncludedVariablesExistInTrait.
+	instanceVars := (instanceVariables subStrings: ' ') asOrderedCollection.
+	diffs do: [:inclusionDiff | instanceVars removeAll: inclusionDiff removedVariables].
+	self 
+		assertVariablesToInclude: (diffs collect: #addedVariables) flatten
+		dontAlreadyExistIn: className 
+		or: instanceVars.
+	diffs do: [:inclusionDiff | instanceVars addAll: inclusionDiff addedVariables].
+	
 	newClass := self
 		subclass: className
-		instanceVariableNames: instanceVariables , (self variableNamesStringFrom: traitInclusions)
+		instanceVariableNames: (self variableNamesStringFor: instanceVars)
 		classVariableNames: d
 		poolDictionaries: s
 		category: cat.
-	newClass assertNoNameClashesWith: traitInclusions restoring: oldClass.
-	newClass addMethodsFrom: traitInclusions.
+		
+	"methods"
+	newClass 
+		assertNoSelectorNameClashesWith: (diffs collect: #addedMethods) flatten 
+		restoring: oldClass.
+	newClass 
+		removeMethodsFrom: diffs;
+		addMethodsFrom: diffs.
+		
 	InclusionRegistry current at: newClass name put: traitInclusions.
 	^ newClass
