@@ -1,7 +1,6 @@
 # copied from github.com/dalehenrich/builderCI
 
-# 64-bit VMs
-language: java
+language: ruby
 
 env:
    - ST=Squeak-4.3
