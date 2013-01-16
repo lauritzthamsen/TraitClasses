@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"errorMessage" : "TP 1/16/2013 19:14:18.558",
-		"runWith:" : "TP 1/16/2013 18:16:14.084" },
+		"errorMessage" : "lt 1/16/2013 22:07:05.538",
+		"runWith:" : "lt 1/16/2013 22:06:58.55" },
 	"instance" : {
-		"assertVariableName:notIn:" : "TP 1/16/2013 19:26:53.466",
-		"assertVariables:areNotUsedIn:" : "TP 1/16/2013 19:05:51.4",
-		"determineRelevantVariablesFrom:" : "TP 1/16/2013 19:40:44.12",
-		"processNode:withVariables:" : "TP 1/16/2013 19:26:19.358",
-		"runWith:" : "TP 1/16/2013 19:34:56.02" } }
+		"assertVariableName:notIn:" : "lt 1/16/2013 22:06:34.777",
+		"assertVariables:areNotUsedIn:" : "lt 1/16/2013 22:06:20.471",
+		"determineRelevantVariablesFrom:" : "lt 1/16/2013 22:04:24.847",
+		"processNode:withVariables:" : "lt 1/16/2013 22:06:44.046",
+		"runWith:" : "lt 1/16/2013 22:05:59.153" } }
