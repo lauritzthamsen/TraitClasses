@@ -27,5 +27,6 @@
 		"test14EvaluateClassDescriptionTwice" : "lt 1/16/2013 14:58:09.008",
 		"test15AddAndRemoveExampleMethod" : "lt 1/16/2013 14:58:12.159",
 		"test16AddAndRemoveExampleVariable" : "lt 1/16/2013 15:31:42.153",
-		"test17ChangeASelectorRenaming" : "lt 1/16/2013 16:53:18.069",
-		"test18RemoveSelectorRenaming" : "lt 1/16/2013 16:28:41.088" } }
+		"test17ChangeASelectorRenaming" : "lt 1/16/2013 17:29:27.753",
+		"test18RemoveSelectorRenaming" : "lt 1/16/2013 16:28:41.088",
+		"test19AddSelectorRenamingOfAlreadyIncludedSelector" : "lt 1/16/2013 17:16:06.466" } }

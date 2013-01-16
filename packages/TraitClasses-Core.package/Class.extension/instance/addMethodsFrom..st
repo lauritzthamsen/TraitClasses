@@ -3,7 +3,7 @@ addMethodsFrom: traitInclusionDiffs
 
 	traitInclusionDiffs
 		do: [:traitInclusionDiff | 
-			traitInclusionDiff addedMethods
+			traitInclusionDiff methodsToAdd
 				do: [:selector || inclusion |
 					inclusion := traitInclusionDiff currentInclusion.
 					self

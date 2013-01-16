@@ -3,7 +3,6 @@ test17ChangeASelectorRenaming
 
 	| testClass |
 	testClass := self classIncludingSelectors: {#exampleMethod -> #renamedExampleMethod}.
-	self halt.
 	testClass := self classIncludingSelectors: {#exampleMethod -> #aliasedExampleMethod}.
 		
 	self 
