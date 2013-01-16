@@ -2,6 +2,14 @@
 subclass: className includes: traitInclusions instanceVariableNames: instanceVariables classVariableNames: d poolDictionaries: s category: cat
 
 	| oldClass newClass |
+	(InclusionRegistry current inclusionsForClass: className equal: traitInclusions) 
+		ifTrue: [^ self
+			subclass: className
+			instanceVariableNames: instanceVariables
+			classVariableNames: d
+			poolDictionaries: s
+			category: cat.].  
+	
 	oldClass := Smalltalk classNamed: className.
 	self assertVariablesValidFor: className with: instanceVariables with: traitInclusions.
 	newClass := self
