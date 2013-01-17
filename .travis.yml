@@ -7,6 +7,8 @@ env:
    - ST=Squeak-4.4
 
 install:
+   - "sudo apt-get update"
+   - "sudo apt-get install ia32-libs"
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
    - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
