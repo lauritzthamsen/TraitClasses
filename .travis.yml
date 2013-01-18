@@ -12,9 +12,9 @@ install:
    - "sudo apt-get install -qq ia32-libs-multiarch"
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
-   - wget -O builderCI.zip https://github.com/dalehenrich/builderCI/zipball/master
+   - wget -O builderCI.zip https://github.com/timfel/builder/zipball/master
    - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
+   - cd timfel-builder*
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
