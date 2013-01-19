@@ -1,0 +1,1 @@
+(name 'TraitClasses-Experiments-lt.1' message 'experiment for issue #32, code that swaps two classes, exchanges their names and lets the second class adopt all instances of the other' id 'bdc59159-b997-478b-8b17-cb1758d8ddab' date '19 January 2013' time '11:48:13.16 am' author 'lt' ancestors () stepChildren ())
