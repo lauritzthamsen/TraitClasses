@@ -6,7 +6,7 @@ test123RenameInstanceVariablesAndChangeComplexCode
 		classIncludingSelectors: {#usingExampleVariableComplex}
 		variables: {#exampleVariable -> #renamedVariable. #exampleVariable2}.
 	
-	(testClass >> #usingExampleVariableComplex) getSource = 
+	self assert: (testClass >> #usingExampleVariableComplex) getSource = 
 'usingExampleVariableComplex
 	"Do not change this method, tests depend on this code"
 	| tmp block otherTemp |

@@ -8,6 +8,7 @@ instanceVariableStringFrom: instanceVariables and: className and: changes
 	changes do: #assertIncludedVariablesExistInTrait.
 	
 	allInstanceVariableNames := instanceVars, self allInstVarNames.
+	
 	(allInstanceVariableNames includesAllOf: (changes flatCollect: #existingVariables))
 		ifFalse: [self error: 'some used variables do not exist in target class'].
 	

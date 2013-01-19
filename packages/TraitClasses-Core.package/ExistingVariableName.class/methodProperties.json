@@ -1,7 +1,11 @@
 {
 	"class" : {
-		"for:" : "lt 1/19/2013 15:51:37.219" },
+		"for:" : "lt 1/19/2013 15:51:37.219",
+		"forRenaming:" : "lt 1/19/2013 18:18:43.352" },
 	"instance" : {
 		"isExistingVariableName" : "lt 1/19/2013 15:52:47.884",
+		"isRenaming" : "lt 1/19/2013 18:20:44.297",
+		"renamedVariableName" : "lt 1/19/2013 18:18:11.261",
+		"renamedVariableName:" : "lt 1/19/2013 18:18:11.263",
 		"variableName" : "lt 1/19/2013 15:51:14.451",
 		"variableName:" : "lt 1/19/2013 15:51:14.456" } }

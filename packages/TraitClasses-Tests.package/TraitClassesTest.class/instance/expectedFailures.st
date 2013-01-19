@@ -1,4 +1,4 @@
 as yet unclassified
 expectedFailures
 
-	^ {#test120RenameInstanceVariables. #test121RenameInstanceVariablesAndReuse. #test122RenameInstanceVariablesAndChangeCode. #test123RenameInstanceVariablesAndChangeComplexCode. #test124RenameInstanceVariablesAndReuseAndChangeCode}
+	^ {#test122RenameInstanceVariablesAndChangeCode. #test123RenameInstanceVariablesAndChangeComplexCode. #test124RenameInstanceVariablesAndReuseAndChangeCode}

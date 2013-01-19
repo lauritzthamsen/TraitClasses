@@ -6,7 +6,7 @@ test122RenameInstanceVariablesAndChangeCode
 		classIncludingSelectors: {#usingExampleVariable}
 		variables: {#exampleVariable -> #renamedVariable}.
 	
-	(testClass >> #usingExampleVariable) getSource = 
+	self assert: (testClass >> #usingExampleVariable) getSource = 
 'usingExampleVariable
 	"Do not change this method, tests depend on this code"
 	^renamedVariable'

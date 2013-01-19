@@ -10,6 +10,7 @@
 		"selectors",
 		"methodRenamings",
 		"variables",
+		"variableRenamings",
 		"existingVariables" ],
 	"name" : "TraitInclusion",
 	"pools" : [
