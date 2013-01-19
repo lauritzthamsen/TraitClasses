@@ -5,6 +5,9 @@ TraitClasses: Reconciling Classes and Traits[![Build Status](https://travis-ci.o
 An attempt to make any class in Squeak/Smalltalk usable as a trait. This way, programmers don't have to decide upfront to either implement 
 something as a class or as a trait.
 
+This project is part of the course Module Systems of the HPI's Software Architecture Group, see http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/modulsysteme.html for the course description.
+
+
 ## Usage
 
 ```smalltalk
@@ -25,5 +28,3 @@ Superclass subclass: #SubclassName
 	category: 'Kernel-Models'
 ```
 
-## Module Systems course at HPI
-This project is part of the course Module Systems of the HPI's Software Architecture Group, see http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/modulsysteme.html for the course description.
