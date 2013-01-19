@@ -1,5 +1,5 @@
 as yet unclassified
 assertIncludedVariablesExistInTrait
 
-	(self getTraitClass instVarNames includesAllOf: self variables)
-		ifFalse: [ self error: 'not every variable to include exists in class ' , self traitClassName ]
+	(self getTraitClass allInstVarNames includesAllOf: self allVariables)
+		ifFalse: [ self error: 'not every included variable exists in trait class ' , self traitClassName ]

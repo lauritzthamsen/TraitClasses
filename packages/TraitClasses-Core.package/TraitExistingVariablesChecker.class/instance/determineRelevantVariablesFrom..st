@@ -1,4 +1,4 @@
 as yet unclassified
 determineRelevantVariablesFrom: inclusion
 	
-	^ inclusion getTraitClass instVarNames copyWithoutAll: inclusion variables
+	^ inclusion getTraitClass instVarNames copyWithoutAll: inclusion allVariables

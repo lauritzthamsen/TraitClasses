@@ -4,8 +4,8 @@ addMethodsFrom: changes
 	changes
 		do: [:traitInclusionChange | 
 			traitInclusionChange methodsToAdd
-				do: [:selector || inclusion |
-					inclusion := traitInclusionChange newInclusion.
+				do: [:selector |
 					self
-						compile: (inclusion sourceForSelector: selector)
-						classified: self traitProtocolPrefix , inclusion traitClassName]]
+						compile: (traitInclusionChange sourceForSelector: selector)
+						classified: self traitProtocolPrefix , 
+								traitInclusionChange traitClassName]]

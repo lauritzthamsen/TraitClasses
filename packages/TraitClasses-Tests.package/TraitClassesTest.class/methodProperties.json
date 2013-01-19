@@ -22,6 +22,7 @@
 		"test07AllMethodsInProtocol" : "lt 1/16/2013 15:23:52.581",
 		"test08SpecificMethodAndProtocol" : "lt 1/16/2013 15:23:52.579",
 		"test09InstanceVariable" : "lt 1/16/2013 15:30:45.385",
+		"test100UseVariableFromTraitSuperclass" : "lt 1/19/2013 16:59:43.386",
 		"test101ConflictWhenTwoTraitsIncludeSameVariable" : "lt 1/19/2013 15:12:48.196",
 		"test10ConflictingVariable" : "lt 1/16/2013 15:30:56.33",
 		"test11IncludedInstanceVariablesMustExistInTrait" : "lt 1/19/2013 16:37:15.48",

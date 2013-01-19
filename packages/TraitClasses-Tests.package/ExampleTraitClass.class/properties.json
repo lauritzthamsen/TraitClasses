@@ -15,5 +15,5 @@
 	"name" : "ExampleTraitClass",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ExampleTraitSuperclass",
 	"type" : "normal" }

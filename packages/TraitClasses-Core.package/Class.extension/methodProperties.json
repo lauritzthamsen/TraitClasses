@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addMethodsFrom:" : "lt 1/16/2013 22:54:39.36",
+		"addMethodsFrom:" : "lt 1/19/2013 16:46:01.9220000000000002",
 		"assertNoSelectorNameClashes:restoring:" : "lt 1/16/2013 16:47:35.947",
 		"assertNoSelectorNameClashesWith:" : "lt 1/16/2013 22:08:37.676",
 		"assertVariablesToInclude:dontAlreadyExistIn:or:" : "lt 1/16/2013 14:31:23.4",
-		"instanceVariableStringFrom:and:and:" : "lt 1/19/2013 15:34:55.953",
+		"instanceVariableStringFrom:and:and:" : "lt 1/19/2013 16:55:24.795",
 		"removeMethodsFrom:" : "lt 1/16/2013 22:54:12.113",
 		"restoreClass:" : "lt 1/16/2013 22:07:51.02",
 		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 1/19/2013 15:25:28.666",

@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"traitSuperclassVariable" ],
+	"name" : "ExampleTraitSuperclass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

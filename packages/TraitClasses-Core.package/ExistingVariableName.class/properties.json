@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"traitClassName",
-		"selectors",
-		"methodRenamings",
-		"variables",
-		"existingVariables" ],
-	"name" : "TraitInclusion",
+		"variableName" ],
+	"name" : "ExistingVariableName",
 	"pools" : [
 		 ],
 	"super" : "Object",
