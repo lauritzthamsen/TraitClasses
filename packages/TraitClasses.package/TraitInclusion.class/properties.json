@@ -1,0 +1,18 @@
+{
+	"category" : "TraitClasses-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"traitClassName",
+		"selectors",
+		"methodRenamings",
+		"variables",
+		"existingVariables" ],
+	"name" : "TraitInclusion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

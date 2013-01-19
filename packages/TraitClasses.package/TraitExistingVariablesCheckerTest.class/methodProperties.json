@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertVariables:raisesErrorFor:" : "TP 1/16/2013 18:52:50.178",
+		"setUp" : "TP 1/16/2013 18:55:38.718",
+		"testFindsUsedVariable" : "TP 1/16/2013 19:22:11.122",
+		"testFindsUsedVariableAmongOthers" : "TP 1/16/2013 19:21:49.484",
+		"testIgnoresUnsedVariable" : "TP 1/16/2013 19:25:22.882" } }

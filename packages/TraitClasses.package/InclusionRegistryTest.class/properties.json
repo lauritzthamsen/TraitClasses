@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "InclusionRegistryTest",
+	"pools" : [
+		 ],
+	"super" : "TraitClassesTest",
+	"type" : "normal" }

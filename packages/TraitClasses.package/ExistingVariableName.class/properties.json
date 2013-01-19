@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"variableName" ],
+	"name" : "ExistingVariableName",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

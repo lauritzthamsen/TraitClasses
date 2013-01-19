@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"errorMessage" : "lt 1/16/2013 22:07:05.538",
+		"runWith:" : "lt 1/16/2013 22:06:58.55" },
+	"instance" : {
+		"assertVariableName:notIn:" : "lt 1/16/2013 22:06:34.777",
+		"assertVariables:areNotUsedIn:" : "lt 1/16/2013 22:06:20.471",
+		"determineRelevantVariablesFrom:" : "lt 1/19/2013 16:28:12.768",
+		"processNode:withVariables:" : "lt 1/16/2013 22:06:44.046",
+		"runWith:" : "lt 1/16/2013 22:05:59.153" } }

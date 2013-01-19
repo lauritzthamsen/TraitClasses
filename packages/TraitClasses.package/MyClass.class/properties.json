@@ -1,0 +1,15 @@
+{
+	"category" : "TraitClasses-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state1",
+		"state3" ],
+	"name" : "MyClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
