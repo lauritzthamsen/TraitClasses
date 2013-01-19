@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"exampleVariable",
-		"exampleVariable2",
-		"exampleVariable3",
-		"existingVariable",
 		"duplicatedVariable" ],
-	"name" : "ExampleTraitClass",
+	"name" : "AnotherExampleTraitClass",
 	"pools" : [
 		 ],
 	"super" : "Object",

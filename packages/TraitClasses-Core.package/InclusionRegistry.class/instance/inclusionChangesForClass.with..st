@@ -1,18 +1,21 @@
 accessing
 inclusionChangesForClass: className with: newInclusions
 
-	| originalInclusions includedClasses |
+	| originalInclusions includedClasses inclusions |
 	originalInclusions := self inclusionsForClass: className.
 	includedClasses := Set new.
 	includedClasses 
 		addAll: (newInclusions collect: #traitClassName);
 		addAll: (originalInclusions collect: #traitClassName).
 	
-	^ includedClasses collect: [:includedClassName || originalInclusion newInclusion |
+	inclusions := includedClasses collect: [:includedClassName |
+		| originalInclusion newInclusion |
 		originalInclusion := originalInclusions 
 			detect: [:inclusion | inclusion traitClassName = includedClassName] 
 			ifNone: [TraitInclusion new traitClassName: includedClassName].
 		newInclusion := newInclusions 
 			detect: [:inclusion | inclusion traitClassName = includedClassName]
 			ifNone: [TraitInclusion new traitClassName: includedClassName].
-		TraitInclusionChanges between: originalInclusion and: newInclusion]
+		TraitInclusionChanges between: originalInclusion and: newInclusion].
+	
+	^ inclusions asOrderedCollection

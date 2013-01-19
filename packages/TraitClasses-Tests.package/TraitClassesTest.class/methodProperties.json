@@ -1,17 +1,18 @@
 {
 	"class" : {
+		"anotherTraitClassName" : "lt 1/19/2013 15:11:18.654",
 		"conflictingMethodName" : "lt 1/13/2013 15:02:15.465",
 		"defaultClassName" : "lt 1/13/2013 14:43:55.529",
 		"exampleTraitClassName" : "lt 1/16/2013 15:26:00.041",
 		"instVarUsingErrorMessage" : "TP 1/16/2013 18:39:18.21",
 		"instVarUsingMethodName" : "TP 1/16/2013 17:26:40.008" },
 	"instance" : {
-		"classIncluding:" : "lt 1/16/2013 16:04:38.797",
+		"classIncluding:" : "lt 1/19/2013 15:09:05.252",
 		"classIncludingSelectors:" : "lt 1/16/2013 15:25:50.144",
 		"classIncludingSelectorsQuietly:" : "lt 1/16/2013 15:26:13.102",
 		"classIncludingVariables:" : "lt 1/16/2013 15:30:29.156",
 		"createdClass" : "lt 1/13/2013 14:46:10.117",
-		"tearDown" : "lt 1/16/2013 10:58:21.423",
+		"tearDown" : "lt 1/19/2013 15:19:12.096",
 		"test01ExampleMethod" : "lt 1/13/2013 15:00:47.63",
 		"test02ProtocolOfExampleMethod" : "lt 1/16/2013 15:26:23.315",
 		"test03ConflictingMethodRaisesError" : "lt 1/13/2013 15:00:47.625",
@@ -21,6 +22,7 @@
 		"test07AllMethodsInProtocol" : "lt 1/16/2013 15:23:52.581",
 		"test08SpecificMethodAndProtocol" : "lt 1/16/2013 15:23:52.579",
 		"test09InstanceVariable" : "lt 1/16/2013 15:30:45.385",
+		"test101ConflictWhenTwoTraitsIncludeSameVariable" : "lt 1/19/2013 15:12:48.196",
 		"test10ConflictingVariable" : "lt 1/16/2013 15:30:56.33",
 		"test11IncludedInstanceVariablesMustExistInTrait" : "lt 1/16/2013 22:53:33.125",
 		"test12MultipleInstanceVariables" : "lt 1/16/2013 15:31:17.202",
