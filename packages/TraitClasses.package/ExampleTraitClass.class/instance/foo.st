@@ -1,2 +1,0 @@
-exampleProtocol
-foo 

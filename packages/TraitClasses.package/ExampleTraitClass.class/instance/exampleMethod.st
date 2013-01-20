@@ -1,4 +1,0 @@
-exampleProtocol
-exampleMethod
-
-	^ 20

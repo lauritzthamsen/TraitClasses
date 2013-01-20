@@ -1,4 +1,0 @@
-accessing
-currentInclusion
-
-	^ currentInclusion

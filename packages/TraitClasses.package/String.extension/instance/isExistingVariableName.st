@@ -1,4 +1,0 @@
-*TraitClasses
-isExistingVariableName
-
-	^ false
