@@ -24,3 +24,7 @@ script:
    - $BUILDER_CI_HOME/buildTravisStatusCheck.sh # dump Transcript on failed tests and exit
 # reach here on successful build
 #   - cat TravisTranscript.txt
+
+notifications:
+  email:
+    - tobias.pfeiffer@student.hpi.uni-potsdam.de
