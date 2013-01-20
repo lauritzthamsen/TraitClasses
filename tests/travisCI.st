@@ -7,6 +7,9 @@ Metacello new
   repository: 'filetree://', MetacelloBuilderTravisCI gitPath, '/TraitClasses/packages';
   load: 'Tests'.
 
+"Author initials as our tests compile code"
+Utilities setAuthorInitials: 'travis'.
+
 "Run the tests"
 TravisCIHarness
   value: #('TraitClasses')
