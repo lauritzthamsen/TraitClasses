@@ -28,4 +28,6 @@ script:
 notifications:
   email:
     - tobias.pfeiffer@student.hpi.uni-potsdam.de
+    - anton.gulenko@student.hpi.uni-potsdam.de
+    - lethal_guitar128@web.de
     - lauritz.thamsen@gmail.com
