@@ -1,4 +1,5 @@
 accessing
 allIncludedVariables
 
-	^ self variables, self existingVariables
+	^ (self variables copyWithoutAll: self variableRenamings keys), 
+			self variableRenamings values, self existingVariables
