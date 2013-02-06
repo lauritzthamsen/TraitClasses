@@ -2,8 +2,8 @@
 instanceVariableStringFrom: instanceVariables and: className and: changes
 
 	| instanceVars allInstanceVariableNames addedVariables |
-	instanceVars := (instanceVariables subStrings: ' ') asOrderedCollection
-		copyWithoutAll: (changes flatCollect: #removedVariables).
+	instanceVars := ((instanceVariables subStrings: ' ') asOrderedCollection
+		copyWithoutAll: (changes flatCollect: #removedVariables)).
 	
 	changes do: #assertIncludedVariablesExistInTrait.
 	
@@ -22,5 +22,6 @@ instanceVariableStringFrom: instanceVariables and: className and: changes
 		dontAlreadyExistIn: className 
 		or: instanceVars.
 		
-	changes do: [ :inclusionDiff | instanceVars addAll: inclusionDiff addedVariables ].
+	changes do: [:inclusionDiff | 
+		instanceVars addAll: inclusionDiff newInclusion addedVariables ].
 	^ self variableNamesStringFor: instanceVars

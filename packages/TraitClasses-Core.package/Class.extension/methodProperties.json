@@ -7,10 +7,10 @@
 		"assertNoSelectorNameClashesWith:" : "lt 1/16/2013 22:08:37.676",
 		"assertOnlyIncludedInstanceVariablesUsedIn:" : "TP 2/6/2013 11:08:54.324",
 		"assertVariablesToInclude:dontAlreadyExistIn:or:" : "lt 1/16/2013 14:31:23.4",
-		"instanceVariableStringFrom:and:and:" : "lt 1/19/2013 18:28:47.104",
+		"instanceVariableStringFrom:and:and:" : "lt 2/6/2013 15:11:40.433",
 		"removeMethodsFrom:" : "lt 1/16/2013 22:54:12.113",
 		"restoreClass:" : "lt 1/16/2013 22:07:51.02",
-		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "TP 2/6/2013 11:06:57.882",
+		"subclass:includes:instanceVariableNames:classVariableNames:poolDictionaries:category:" : "lt 2/6/2013 15:09:44.09",
 		"traitProtocolPrefix" : "TP 1/9/2013 17:14:35.503",
 		"updateMethodsFrom:" : "lt 1/16/2013 22:53:58.161",
 		"variableNamesStringFor:" : "lt 1/16/2013 14:11:13.599" } }

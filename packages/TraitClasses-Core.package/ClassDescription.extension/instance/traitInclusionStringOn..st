@@ -4,7 +4,7 @@ traitInclusionStringOn: aStream
 	aStream nextPut: ${.
 	self traitInclusions 
 		do: [:inclusion |
-			aStream nextPutAll: '#', inclusion traitClassName, ' '.
+			aStream nextPutAll: '#', inclusion traitClassName.
 			inclusion includedSelectors ifNotEmpty: [
 				self printSelectorsOf: inclusion on: aStream].
 			inclusion allIncludedVariables ifNotEmpty: [
