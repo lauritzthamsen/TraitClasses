@@ -31,14 +31,14 @@ _Note_: Alternatively, the whole project with all it's dependencies can be impor
 
 ```smalltalk
 Superclass subclass: #SubclassName
-  instanceVariableNames: 'muh'
+	instanceVariableNames: 'muh'
 
 	"TraitClasses: include other (parts of) other classes"
-	includes: { #OtherClass selectors: {#selA . #hi} .
+	includes: { #OtherClass selectors: {#selA . #hello} .
 	    #AnotherClass . 
-	    #YANC 
-	      variables: {#muh useExisting. #bla . (#sel1 -> #sel2 useExisting)}
-	      selectors: {#useMuh}
+	    #YetAnotherClass 
+	      variables: {#someVar useExisting. #anotherVar . (#foo -> #bar useExisting)}
+	      selectors: {#importantMethod}
 	      protocols: {#enumeration}.
 	}
 
