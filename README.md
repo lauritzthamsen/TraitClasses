@@ -31,17 +31,16 @@ _Note_: Alternatively, the whole project with all it's dependencies can be impor
 
 ```smalltalk
 Superclass subclass: #SubclassName
-	instanceVariableNames: 'muh'
+	instanceVariableNames: 'status someVar bar'
 
 	"TraitClasses: include other (parts of) other classes"
 	includes: { #OtherClass selectors: {#selA . #hello} .
 	    #AnotherClass . 
 	    #YetAnotherClass 
-	      variables: {#someVar useExisting. #anotherVar . (#foo -> #bar useExisting)}
+	      variables: {#someVar useExisting. #anotherVar . (#foo -> #bar) useExisting}
 	      selectors: {#importantMethod}
 	      protocols: {#enumeration}.
 	}
-
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Kernel-Models'
