@@ -1,4 +1,4 @@
 removing
-removeKey: className
+removeKey: className 
 
-	^ self inclusions removeKey: className
+	^ self inclusions removeKey: className ifAbsent: ["nothing"]
