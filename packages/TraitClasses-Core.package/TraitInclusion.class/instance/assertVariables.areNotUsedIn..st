@@ -3,8 +3,10 @@ assertVariables: variableList areNotUsedIn: method
 
 	| parseTree |
 	parseTree := method parseTree.
+	
+	"need to check method with renamed variables, not the original source"
 	self renameVariableReferencesOf: parseTree.
 	
 	self 
-		processNode: parseTree
-		withVariables: variableList.
+		assertNode: parseTree
+		doesNotContainVariables: variableList.

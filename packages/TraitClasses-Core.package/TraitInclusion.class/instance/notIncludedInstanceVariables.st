@@ -1,4 +1,4 @@
 instance variable checking
-determineRelevantVariables
+notIncludedInstanceVariables
 	
 	^ self getTraitClass instVarNames copyWithoutAll: self allIncludedVariables
