@@ -18,7 +18,7 @@ subclass: className includes: traitInclusions instanceVariableNames: instanceVar
 		category: cat.	
 
 	[newClass assertNoSelectorNameClashesWith: (changes collect: #addedMethods) flatten.
-	 TraitExistingVariablesChecker runWith: traitInclusions ] ifError: [ :error |
+	 self assertOnlyIncludedInstanceVariablesUsedIn: traitInclusions ] ifError: [ :error |
 		self 
 			restoreClass: oldClass;
 			error: error ].    

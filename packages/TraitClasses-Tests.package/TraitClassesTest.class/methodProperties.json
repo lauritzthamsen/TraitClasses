@@ -48,4 +48,4 @@
 		"test22UseExistingVariableMustExistInTarget" : "lt 1/19/2013 16:42:08.818",
 		"test23UseExistingVariableFromSuperclass" : "lt 1/19/2013 16:52:56.663",
 		"testAddingMethodUsingInstanceVarIncludingInstanceVarDoesNotRaiseError" : "TP 1/16/2013 19:52:31.726",
-		"testAddingMethodUsingInstanceVarMethodRaisesError" : "TP 1/16/2013 19:45:42.222" } }
+		"testAddingMethodUsingInstanceVarMethodRaisesError" : "TP 2/6/2013 11:16:10.302" } }

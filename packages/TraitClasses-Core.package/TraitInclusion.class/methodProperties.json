@@ -1,10 +1,14 @@
 {
 	"class" : {
-		 },
+		"instanceVariableInUseErrorMessage" : "TP 2/6/2013 11:02:12.158" },
 	"instance" : {
 		"allVariables" : "lt 1/19/2013 18:45:29.057",
 		"assertIncludedVariablesExistInTrait" : "lt 1/19/2013 17:01:16.373",
+		"assertOnlyIncludedInstanceVariablesUsed" : "TP 2/6/2013 11:10:28.094",
+		"assertVariableName:notIn:" : "TP 2/6/2013 11:15:56.112",
+		"assertVariables:areNotUsedIn:" : "TP 2/6/2013 11:11:13.462",
 		"assertVariablesExist" : "lt 1/16/2013 22:09:36.58",
+		"determineRelevantVariables" : "TP 2/6/2013 11:10:55.168",
 		"existingVariables" : "lt 1/19/2013 15:56:22.126",
 		"existingVariables:" : "lt 1/19/2013 15:56:22.133",
 		"getTraitClass" : "TP 1/9/2013 16:31:49.639",
@@ -13,6 +17,7 @@
 		"methodRenamings" : "lt 1/9/2013 14:27:33.666",
 		"methodRenamings:" : "lt 1/9/2013 14:27:33.673",
 		"nonRenamedVariables" : "lt 1/19/2013 18:14:32.696",
+		"processNode:withVariables:" : "TP 2/6/2013 11:11:22.464",
 		"selectors" : "lt 1/9/2013 14:51:41.582",
 		"selectors:" : "lt 1/9/2013 14:51:53.124",
 		"setSelectors:" : "lt 1/19/2013 15:55:00.809",
