@@ -9,4 +9,5 @@ test122RenameInstanceVariablesAndChangeCode
 	self assert: (testClass >> #usingExampleVariable) getSource = 
 'usingExampleVariable
 	"Do not change this method, tests depend on this code"
-	^renamedVariable'
+
+	^ renamedVariable'

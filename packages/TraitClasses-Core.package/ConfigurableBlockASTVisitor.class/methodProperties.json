@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clientWantsToVisit:" : "ag 5/31/2012 11:54:42.967",
+		"doInvokeClient:with:" : "ag 5/31/2012 11:55:09.399",
+		"initialize" : "ag 5/25/2012 17:42:24.85",
+		"on:invoke:" : "ag 5/25/2012 17:47:50.959" } }

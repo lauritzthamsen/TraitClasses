@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ag 7/9/2012 12:41:01.326",
 	"instvars" : [
-		 ],
-	"name" : "TraitExistingVariablesChecker",
+		"blocks" ],
+	"name" : "ConfigurableBlockASTVisitor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ConfigurableASTVisitor",
 	"type" : "normal" }

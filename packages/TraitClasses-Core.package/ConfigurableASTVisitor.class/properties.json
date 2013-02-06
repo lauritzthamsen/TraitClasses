@@ -1,0 +1,14 @@
+{
+	"category" : "TraitClasses-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ag 5/31/2012 11:58:49.547",
+	"instvars" : [
+		 ],
+	"name" : "ConfigurableASTVisitor",
+	"pools" : [
+		 ],
+	"super" : "RBProgramNodeVisitor",
+	"type" : "normal" }

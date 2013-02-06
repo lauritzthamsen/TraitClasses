@@ -1,10 +1,15 @@
 as yet unclassified
 sourceForSelector: aSelector
 
-	| compiledMethod |
+	| compiledMethod parseTree |
 	compiledMethod := self getTraitClass >> aSelector.
+	parseTree := compiledMethod parseTree.
 	
-	^ (self methodRenamings includesKey: aSelector) 
-		ifTrue: [compiledMethod getSourceWithRenamedSelector: 
-				(self methodRenamings at: aSelector)]  
-		ifFalse: [compiledMethod getSource]
+	(self methodRenamings includesKey: aSelector) 
+		ifTrue: [self 
+				renameSelectorOf: parseTree 
+				to: (self methodRenamings at: aSelector)].
+			
+	self renameVariableReferencesOf: parseTree.
+	
+	^ parseTree newSource

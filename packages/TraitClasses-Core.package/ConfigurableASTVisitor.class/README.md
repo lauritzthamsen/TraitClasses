@@ -1,0 +1,2 @@
+This abstract visitor-class uses the abstract method #invokeClient:with: to handle all AST-nodes.
+The implementation of that method must return a boolean, indicating, whether or not the client wants to further traverse the tree at that node.

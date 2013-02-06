@@ -1,4 +1,4 @@
 accessing
-allVariables
+allVariablesInTraitClass
 
 	^ self variables, (self existingVariables copyWithoutAll: self variableRenamings values)
