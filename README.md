@@ -2,47 +2,40 @@ TraitClasses: Reconciling Classes and Traits[![Build Status](https://travis-ci.o
 ============================================
 
 ## Reconciling Classes and Traits
-An attempt to make any class in Squeak/Smalltalk usable as a trait. This way, programmers don't have to decide upfront to either implement 
-something as a class or as a trait.
 
-This project is part of the course Module Systems of the HPI's Software Architecture Group, see http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/modulsysteme.html for the course description.
+An attempt to make parts of any class in Squeak/Smalltalk usable just like a trait. This way, programmers don't have to decide upfront to either implement 
+functionality with a class or a trait and may even just reuse parts of classes.
+
+This project was started in the course [Module Systems](http://www.hpi.uni-potsdam.de/studium/lehrangebot/itse/veranstaltung/modulsysteme.html) at HPI's [Software Architecture Group](http://www.hpi.uni-potsdam.de/hirschfeld/).
 
 ## Installation
-* Set up a working Squeak image. Our setup:
-    * Squeak 4.3 + CogVM (With applied [CompiledMethod>>#hash patch](http://source.squeak.org/trunk/Kernel-eem.692.mcz))
-    * OmniBrowser and SwaUtilities extensions
-    * ASTCore (already included in OmniBrowser)
-* Install [FileTree](https://github.com/dalehenrich/filetree):
 
-```smalltalk
-Gofer new
-      url: 'http://ss3.gemstone.com/ss/FileTree';
-      package: 'ConfigurationOfFileTree';
-      load.
-((Smalltalk at: #ConfigurationOfFileTree) project version: #'stable') load.
-```
-* Clone this repository: `git clone git@github.com:lauritzthamsen/TraitClasses.git`
-* Inside Squeak, open a Monticello Browser and add a new FileTree repository. Point it to the `packages`-subdirectory of the cloned repository you just created. Load the latest version into the Monticello browser.
-* You can now find the project's code and tests in the `TraitClasses-core` and `TraitClasses-tests` packages.
+1. Setup a Squeak image
+ * [CogVM](www.mirandabanda.org/files/Cog/VM/)
+ * [Squeak 4.3](http://ftp.squeak.org/4.3/)
+ * [CompiledMethod>>#hash](http://source.squeak.org/trunk/Kernel-eem.692.mcz)
+ * [SwaUtilities](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities.html)
+ * [OmniBrowser] (http://www.squeaksource.com/MetacelloRepository.html) with its AST-Core package
+2. Install FileTree, see [dalehenrich/filetree](https://github.com/dalehenrich/filetree)
+3. Clone TraitClasses repository, `git clone git@github.com:lauritzthamsen/TraitClasses.git`
+4. Load TraitClasses packages
+ * In your Squeak image, open a Monticello Browser and add a new FileTree repository. Point it to the *packages*-subdirectory of the cloned repository you just created. Load the latest versions into the Monticello browser.
 
-_Note_: Alternatively, the whole project with all it's dependencies can be imported by loading its Baseline, like it is done in `tests/travisCI.st`.
+_Note_: Alternatively, the project with its dependencies can be loaded through its Baseline, see `tests/travisCI.st`.
 
 ## Usage
 
 ```smalltalk
 Superclass subclass: #SubclassName
-	instanceVariableNames: 'status someVar bar'
-
 	"TraitClasses: include other (parts of) other classes"
-	includes: { #OtherClass selectors: {#selA . #hello} .
-	    #AnotherClass . 
-	    #YetAnotherClass 
-	      variables: {#someVar useExisting. #anotherVar . (#foo -> #bar) useExisting}
+	includes: { #OtherClass selectors: {#methodA . #MethodB} .
+	    #AnotherClass
 	      selectors: {#importantMethod}
-	      protocols: {#enumeration}.
+	      protocols: {#enumeration}
+	      variables: {#someVariable. #existingVariable useExisting. (#newVariable -> #usedVariable) useExisting}.
 	}
+	instanceVariableNames: 'existingVariable usedVariable'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Kernel-Models'
+	category: 'Some-Category'
 ```
-
