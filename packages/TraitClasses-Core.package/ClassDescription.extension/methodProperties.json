@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"compile:classified:notifying:trailer:ifFail:" : "lt 2/8/2013 11:41:06.64",
 		"definition" : "lt 2/6/2013 12:23:56.955",
 		"hasTraitInclusions" : "lt 2/6/2013 12:42:40.373",
 		"instanceVariablesString" : "lt 2/6/2013 12:48:00.636",

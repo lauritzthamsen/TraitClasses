@@ -8,4 +8,5 @@ addMethodsFrom: changes
 					self
 						compile: (traitInclusionChange sourceForSelector: selector)
 						classified: self traitProtocolPrefix , 
-								traitInclusionChange traitClassName]]
+								traitInclusionChange traitClassName
+						notifying: #'allow to change included methods']].
