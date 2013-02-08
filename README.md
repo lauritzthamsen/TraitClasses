@@ -14,8 +14,8 @@ This project was started in the course [Module Systems](http://www.hpi.uni-potsd
  * [CogVM](www.mirandabanda.org/files/Cog/VM/)
  * [Squeak 4.3](http://ftp.squeak.org/4.3/)
  * [CompiledMethod>>#hash](http://source.squeak.org/trunk/Kernel-eem.692.mcz)
- * [SwaUtilities](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities.html)
- * [OmniBrowser] (http://www.squeaksource.com/MetacelloRepository.html) with its AST-Core package
+ * SwaUtil from [SWA Utilities](http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities.html)
+ * AST-Core from [Refactoring Engine] (http://www.squeaksource.com/rb)
 2. Install FileTree, see [dalehenrich/filetree](https://github.com/dalehenrich/filetree)
 3. Clone TraitClasses repository, `git clone git@github.com:lauritzthamsen/TraitClasses.git`
 4. Load TraitClasses packages
