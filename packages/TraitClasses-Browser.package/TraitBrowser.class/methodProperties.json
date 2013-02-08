@@ -3,15 +3,15 @@
 		"initialize" : "lt 2/8/2013 14:44:26.643" },
 	"instance" : {
 		"addSuperMessagesTo:" : "TP 2/8/2013 14:06:15.818",
-		"buildTraitSwitchesWith:" : "TP 2/8/2013 13:38:44.934",
+		"buildTraitSwitchesWith:" : "lt 2/8/2013 14:55:40.489",
 		"filterIncludedMessagesFrom:" : "TP 2/8/2013 14:28:27.66",
 		"includedMessagesIndicated" : "TP 2/8/2013 13:40:09.924",
-		"indicateIncludedMessages" : "TP 2/8/2013 14:26:33.196",
-		"indicateSuperMessages" : "TP 2/8/2013 14:24:41.226",
-		"initialize" : "TP 2/8/2013 13:40:33.81",
+		"indicateIncludedMessages" : "lt 2/8/2013 14:54:03.3689999999999998",
+		"indicateSuperMessages" : "lt 2/8/2013 14:54:17.899",
+		"initialize" : "lt 2/8/2013 14:54:21.836",
 		"messageList" : "TP 2/8/2013 14:17:10.076",
-		"openEditString:" : "TP 2/8/2013 13:26:22.476",
-		"selectedMessage" : "TP 2/8/2013 14:15:55.782",
+		"openEditString:" : "lt 2/8/2013 14:54:39.308",
+		"selectedMessage" : "lt 2/8/2013 14:54:52.379",
 		"superMessagesIndicated" : "TP 2/8/2013 13:39:54.29",
 		"traitButtonsChanged" : "TP 2/8/2013 14:26:20.902",
-		"traitSwitchesFrame:" : "TP 2/8/2013 13:19:18.664" } }
+		"traitSwitchesFrame:" : "lt 2/8/2013 14:54:58.962" } }

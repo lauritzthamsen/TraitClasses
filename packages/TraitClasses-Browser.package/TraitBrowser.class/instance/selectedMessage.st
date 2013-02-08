@@ -3,9 +3,8 @@ selectedMessage
 
 	| code |
 	code := super selectedMessage.
-	code ifEmpty: [
-		self selectedClass 
-			allSuperclassesDo: [ :class |
+	code ifEmpty: [self selectedClass 
+			allSuperclassesDo: [:class |
 				(class includesSelector: self selectedMessageName)
-					ifTrue: [^ (class >> self selectedMessageName) getSource ]]].
+					ifTrue: [^ (class >> self selectedMessageName) getSource]]].
 	^ code

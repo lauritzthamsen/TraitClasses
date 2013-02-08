@@ -8,7 +8,7 @@ buildTraitSwitchesWith: builder
 	buttonSpec := builder pluggableButtonSpec new.
 	buttonSpec 
 			model: self;
-			label: 'super'; 
+			label: 'inherited'; 
 			state: #superMessagesIndicated; 
 			action: #indicateSuperMessages;
 			frame: (0@0 corner: 0.5@1).

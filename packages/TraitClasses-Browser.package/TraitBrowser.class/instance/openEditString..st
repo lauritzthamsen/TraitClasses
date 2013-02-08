@@ -5,7 +5,9 @@ openEditString: aString
 	
 	| builder max messageListPosition |
 	builder := ToolBuilder default.
-	max := self wantsOptionalButtons ifTrue:[0.42] ifFalse:[0.5].
+	max := self wantsOptionalButtons 
+		ifTrue:[0.42] 
+		ifFalse:[0.5].
 	
 	messageListPosition := self
 		classListFrame: max
@@ -20,6 +22,5 @@ openEditString: aString
 		(0.5@0 corner: 0.75@max) -> [self buildMessageCategoryListWith: builder].
 		messageListPosition -> [self buildMessageListWith: builder].
 		(self traitSwitchesFrame: max) -> [self buildTraitSwitchesWith: builder].
-		"(0@max corner: 1@0.5) -> [self buildOptionalButtonsWith: builder]."
 		(0@max corner: 1@1) -> [self buildCodePaneWith: builder].
 	}
