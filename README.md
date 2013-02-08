@@ -39,3 +39,7 @@ Superclass subclass: #SubclassName
 	poolDictionaries: ''
 	category: 'Some-Category'
 ```
+
+## Trait Browser
+
+Our repository also contains a *TraitClasses-Browser* package that provides an alternative system browser. While all browsers show class definitions with all their inclusions, this alternative browser provides buttons to hide and show *included* methods as well as *inherited* methods. After loading that package, you might want to register that browser as default system browser.
