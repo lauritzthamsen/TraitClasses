@@ -1,4 +1,4 @@
 *TraitClasses-Core
 hasTraitInclusions 
 
-	^ self traitInclusions notEmpty
+	^ self traitInclusions anySatisfy: #includesAnything
