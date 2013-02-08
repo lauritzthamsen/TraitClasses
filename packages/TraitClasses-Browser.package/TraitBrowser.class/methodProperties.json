@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"initialize" : "lt 2/8/2013 14:44:26.643" },
 	"instance" : {
 		"addSuperMessagesTo:" : "TP 2/8/2013 14:06:15.818",
 		"buildTraitSwitchesWith:" : "TP 2/8/2013 13:38:44.934",
