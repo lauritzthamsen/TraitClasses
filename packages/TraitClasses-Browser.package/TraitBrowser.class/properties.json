@@ -1,0 +1,15 @@
+{
+	"category" : "TraitClasses-Browser",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"superMessagesIndicated",
+		"includedMessagesIndicated" ],
+	"name" : "TraitBrowser",
+	"pools" : [
+		 ],
+	"super" : "Browser",
+	"type" : "normal" }
